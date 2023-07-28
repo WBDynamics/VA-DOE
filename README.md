@@ -1,6 +1,6 @@
 # Website Template
 
-Azure Preview URL:
+Azure Preview URL: https://ambitious-hill-088f50510.3.azurestaticapps.net/
 
 ## Dev URL's
 Main Branch - 
