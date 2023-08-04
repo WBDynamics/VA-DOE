@@ -49,6 +49,9 @@ body {
     margin-top: 26%;
 }
 
+#doe-programs [contentEditable=true]:focus, [href]:focus, [tabindex]:focus, iframe:focus {
+    outline: none !important;
+}
 
 @media screen and (max-width: 768px) {
     #doe-programs .grid-container {
@@ -93,7 +96,7 @@ body {
         display: none;
     }
 
-    .row2, .row4, .row6 {
+    #doe-programs .row2, #doe-programs .row4, #doe-programs .row6 {
         display: flex;
         flex-flow: column-reverse;
     }
