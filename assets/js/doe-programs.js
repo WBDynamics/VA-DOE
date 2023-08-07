@@ -16,5 +16,4 @@ if (window.innerWidth > 767) {
         
     });
 }
-
-
+  

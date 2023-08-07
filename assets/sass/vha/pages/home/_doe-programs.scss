@@ -27,6 +27,10 @@
     margin: auto;
 }
 
+#doe-programs .grid-container h5 {
+    font-size: max(9px, min(0.972222vw, 1rem));
+}
+
 #doe-programs .grid-container p, #doe-programs .usa-button {
     font-size: max(9px, min(0.872222vw, 14px));
     line-height: 1.2;
@@ -139,11 +143,6 @@
     #doe-programs .row2, #doe-programs .row4, #doe-programs .row6 {
         display: flex;
         flex-flow: column-reverse;
-    }
-
-    #doe-programs .row6 {
-        background: url('assets/img/mobile__shark-tank.svg');
-        background-size: cover;
     }
 
     #doe-programs .usa-button {
