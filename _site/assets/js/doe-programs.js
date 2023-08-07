@@ -1,4 +1,4 @@
-let path = document.querySelector('.svg-container path')
+let path = document.querySelector('.doe-svg-container path')
 let pathLength = path.getTotalLength();
 
 path.style.strokeDasharray = pathLength + ' ' + pathLength;
@@ -16,3 +16,5 @@ if (window.innerWidth > 767) {
         
     });
 }
+
+
