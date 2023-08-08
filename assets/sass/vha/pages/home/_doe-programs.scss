@@ -57,7 +57,7 @@
     display: none;
 }
 
-@media screen and (max-width: 767px) {
+@include at-media-max('mobile-lg') {
     #doe-programs {
         padding-bottom: 5%
     }
