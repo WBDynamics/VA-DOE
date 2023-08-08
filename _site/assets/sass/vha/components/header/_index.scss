@@ -1,5 +1,17 @@
 @use "uswds-core" as *;
 
+.usa-header {
+    background-color: #0e1d33;
+
+}
+
+.usa-logo {
+    a {
+        color: #fff;
+    }
+
+}
+
 .usa-logo__text {
     font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     
