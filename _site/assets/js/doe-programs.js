@@ -25,7 +25,6 @@ if (window.innerWidth > 767) {
         path.style.strokeDashoffset = pathLength - drawLength;
         
     });
-    
 }
 
 
