@@ -1,3 +1,16 @@
+.doe-programs-wrapper {
+  margin: 20% auto 7% auto;
+}
+
+.doe-programs-wrapper img.blueblur-top {
+  top: -12%;
+}
+
+.doe-programs-wrapper img.blueblur-bottom {
+  bottom: -15%;
+  right: 0;
+}
+
 .doe-svg-container {
     width: 120%;
     margin: auto;
@@ -14,6 +27,7 @@
     background: #E8F2F8;
     width: 70%;
     margin: 5% auto;
+    z-index: 2;
   
     .grid-container {
       color: #0a0808;
@@ -159,6 +173,14 @@
         z-index: 2 !important;
       }
     }
+
+    .doe-programs-wrapper img.blueblur-top {
+      display: none;
+    }
+    
+    .doe-programs-wrapper img.blueblur-bottom {
+      display: none;
+    }
   }
   
   @media screen and (min-width: 767px) and (max-width: 768px) {
@@ -172,5 +194,10 @@
       }
     }
   }
-  
+
+  @media screen and (max-width: 767px) {
+    .doe-programs-wrapper {
+      margin: 0 auto;
+    }
+  }
     
