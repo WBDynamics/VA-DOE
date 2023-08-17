@@ -80,9 +80,16 @@ a.card-group-tags {
 }
 
 @media (min-width: 64em) {
-  .use-card_header, .usa-card_body {
+  #doe-news .use-card_header, .usa-card_body {
     padding-left: 2rem !important;
-    padding-right: 0rem !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media (min-width: 64em) {
+  #doe-news .grid-row.grid-gap > * {
+    padding-left: 1rem;
+    padding-right: 0 !important;
   }
 }
 
