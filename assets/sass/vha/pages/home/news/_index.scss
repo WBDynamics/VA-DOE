@@ -7,16 +7,26 @@
 .usa-card__container {
   max-height: 300px;
   border-color: #CCCCCC !important;
-  box-shadow: 0 4px 7px 0 #e1e1e1 !important;
+  box-shadow: 0px 4px 7px 2px #E1E1E1!important;
 }
 
 .owl-nav {
   position: absolute;
   top: 109%;
-  left: 1%;
+  left: 1.25%;
 }
 
+
 .owl-carousel {
+  .usa-card__media--inset .usa-card__img {
+    border-radius: 7px !important;
+    background: #fff !important;
+  }
+
+  .owl-stage {
+    margin: 0% auto 2% auto !important;
+  }
+
   .owl-nav button {
     &.owl-prev {
       position: relative !important;
@@ -30,7 +40,7 @@
       left: 25% !important;
       right: auto !important;
       background: #337CB4 !important;
-      padding: 10px 10px 6px !important;
+      padding: 9px 9px 5px !important;
       border-radius: 3px !important;
     }
 
@@ -54,14 +64,22 @@
   padding-right: 1rem !important;
 
   > {
-    h5 {
+    h4 {
       margin-top: 1rem !important;
-      font-size: .7rem;
+      font-size: max(.75rem, min(1.2vw, .75rem));
     }
 
     p {
-      font-size: .7rem;
+      font-size: max(.75rem, min(1.2vw, .75rem));
     }
+  }
+
+  h4, p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2; 
+    -webkit-box-orient: vertical;
   }
 }
 
@@ -76,7 +94,7 @@ a.card-group-tags {
 }
 
 .owl-carousel .owl-nav button.owl-next>span, .owl-carousel .owl-nav button.owl-prev>span {
-  width: 15px;
+  width: 17px;
 }
 
 @media (min-width: 64em) {
@@ -90,6 +108,12 @@ a.card-group-tags {
   #doe-news .grid-row.grid-gap > * {
     padding-left: 1rem;
     padding-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1516px) {
+  #doe-news .usa-card_header > h1 {
+    font-size: 2rem !important;
   }
 }
 
@@ -155,13 +179,13 @@ a.card-group-tags {
   }
 
   .usa-card__body > {
-    h5, p {
+    h4, p {
       font-size: calc(1rem + .9vw) !important;
     }
   }
 
   #doe-news .usa-card_header {
-    h2 {
+    h1 {
       font-size: calc(2.325rem + .9vw);
     }
 
