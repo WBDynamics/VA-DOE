@@ -1,19 +1,18 @@
 #doe-news {
   background: #F0F0F0;
   color: #000;
-  padding: 7% 13% 10% 13%;
 }
 
 .usa-card__container {
-  max-height: 300px;
+  min-height: 300px;
   border-color: #CCCCCC !important;
   box-shadow: 0px 4px 7px 2px #E1E1E1!important;
 }
 
 .owl-nav {
   position: absolute;
-  top: 109%;
-  left: 1.25%;
+  top: 105%;
+  left: 1%;
 }
 
 
@@ -39,21 +38,30 @@
       top: 112% !important;
       left: 25% !important;
       right: auto !important;
-      background: #337CB4 !important;
-      padding: 9px 9px 5px !important;
-      border-radius: 3px !important;
     }
 
-    &.owl-prev {
+    &.owl-next, &.owl-prev {
       background: #337CB4 !important;
-      padding: 9px 9px 5px !important;
+      padding: 6px 0 0 0 !important;
       border-radius: 3px !important;
+      width: 48px;
+      height: 48px;
     }
   }
 
   &.owl-loaded {
     display: block;
     padding: 0 !important;
+  }
+}
+
+.usa-card_body {
+  padding-bottom: 5% !important;
+}
+
+.usa-card_header {
+  p {
+    font-size: max(22px, min(0.972222vw, 22px))
   }
 }
 
@@ -66,11 +74,6 @@
   > {
     h4 {
       margin-top: 1rem !important;
-      font-size: max(.75rem, min(1.2vw, .75rem));
-    }
-
-    p {
-      font-size: max(.75rem, min(1.2vw, .75rem));
     }
   }
 
@@ -94,7 +97,8 @@ a.card-group-tags {
 }
 
 .owl-carousel .owl-nav button.owl-next>span, .owl-carousel .owl-nav button.owl-prev>span {
-  width: 17px;
+  width: 24px;
+  height: 24px;
 }
 
 @media (min-width: 64em) {
@@ -111,25 +115,21 @@ a.card-group-tags {
   }
 }
 
-@media screen and (max-width: 1516px) {
-  #doe-news .usa-card_header > h1 {
-    font-size: 2rem !important;
-  }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  #doe-news {
-    padding: 7% 6% 20% !important;
-  }
-
   .owl-nav {
     left: 1.5%;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1025px) {
+@media screen and (min-width: 768px) and (max-width: 769px) {
   #doe-news {
-    padding: 7% 6% 15% !important;
+    padding: 5% 0 14% 0 !important
+  }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1025px) {
+  #doe-news {
+    padding: 5% 0 8% 0 !important
   }
 }
 
@@ -190,7 +190,6 @@ a.card-group-tags {
     }
 
     p {
-      font-size: calc(1.325rem + .9vw);
       margin-bottom: 5% !important;
     }
   }
