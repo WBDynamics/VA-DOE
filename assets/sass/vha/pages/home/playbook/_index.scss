@@ -6,89 +6,93 @@
     width: 83.5%;
 }
 
+.button-vha {
+    font-size: 1rem;
+    background-color: #337CB4;
+}
+    
+// .playbook-img {
+//     display: contents !important;
+// }
+
 @include at-media(mobile) {
     // mobile = 320
-    #doe-playbook {
-        margin-top: 60%;
-        margin-bottom: 20%;
-    }
     .playbook-img {
-        padding-bottom: 1.5rem;
+        display: none;
     }
 }
 
 @include at-media(mobile-lg) {
     // mobile-lg = 480
-    #doe-playbook {
-        margin-top: 40%;
-        margin-bottom: 20%;
-    }
     .playbook-img {
-        padding-right: 2rem;
+        display: none;
     }
 }
 
 @include at-media(tablet) {
     // tablet = 640
-    #doe-playbook {
-        margin-top: 30%;
-        margin-bottom: 15%;
+    .playbook-text {
+        // order: 2;
+        flex: 1 0 auto;
+        color: yellow;
     }
     .playbook-img {
-        padding-right: 2rem;
+        display: contents;
+        flex: 0 1 auto;
+        // order: 1;
+        color: yellow;
     }
 }
 
 @include at-media(tablet-lg) {
     // tablet-lg = 880
-    #doe-playbook {
-        margin-top: 20%;
-        margin-bottom: 10%;
-    }
     .playbook-text {
-        padding-right: 1rem;
+        // order: 1;
+        color: red;
+    }
+    .playbook-img {
+        display: contents;
+        // order: 2;
+        color: red;
     }
     
 }
 
 @include at-media(desktop) {
     // desktop = 1024
-    #doe-playbook {
-        margin-top: 25%;
-        margin-bottom: 10%;
-    }
     .playbook-text {
-        padding-right: 2rem;
+        // order: 1;
+        color: blue;
     }
     .playbook-img {
-        padding-top: 2rem;
+        display: contents;
+        // order: 2;
+        color: blue;
     }
 }    
 
 @include at-media(desktop-lg) {
     // desktop-lg = 1200
-    #doe-playbook {
-        margin-top: 20%;
-        margin-bottom: 10%;
-    }
     .playbook-text {
-        padding-right: 2rem;
+        // order: 1;
+        color: orange;
     }
     .playbook-img {
-        padding-top: 4rem;
+        display: contents;
+        // order: 2;
+        color: orange;
     }
 }
 
 @include at-media(widescreen) {
     // widescreen = 1400
-    #doe-playbook {
-        margin-top: 15%;
-        margin-bottom: 5%;
-    }
     .playbook-text {
-        padding-right: 2rem;
+        // order: 1;
+        color: brown;
     }
     .playbook-img {
-        padding-top: 2rem;
+        display: contents;
+        // order: 2;
+        color: brown;
     }
 }
