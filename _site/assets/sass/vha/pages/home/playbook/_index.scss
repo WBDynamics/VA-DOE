@@ -6,14 +6,17 @@
     width: 83.5%;
 }
 
+.playbook-text {
+    order: 1;
+}
+.playbook-img {
+    order: 2;
+}
+
 .button-vha {
     font-size: 1rem;
     background-color: #337CB4;
 }
-    
-// .playbook-img {
-//     display: contents !important;
-// }
 
 @include at-media(mobile) {
     // mobile = 320
@@ -32,28 +35,22 @@
 @include at-media(tablet) {
     // tablet = 640
     .playbook-text {
-        // order: 2;
-        flex: 1 0 auto;
-        color: yellow;
+        margin-top: 2rem;
     }
     .playbook-img {
         display: contents;
-        flex: 0 1 auto;
-        // order: 1;
-        color: yellow;
     }
 }
 
 @include at-media(tablet-lg) {
     // tablet-lg = 880
     .playbook-text {
-        // order: 1;
-        color: red;
+        margin-right: 2rem;
     }
     .playbook-img {
-        display: contents;
-        // order: 2;
-        color: red;
+        display: flex;
+        flex-direction: reverse;
+        margin-top: 6.5rem;
     }
     
 }
@@ -61,38 +58,29 @@
 @include at-media(desktop) {
     // desktop = 1024
     .playbook-text {
-        // order: 1;
-        color: blue;
+        margin-right: 2rem;
     }
     .playbook-img {
-        display: contents;
-        // order: 2;
-        color: blue;
+        margin-top: 5rem;
     }
 }    
 
 @include at-media(desktop-lg) {
     // desktop-lg = 1200
     .playbook-text {
-        // order: 1;
-        color: orange;
+        margin-right: 2rem;
     }
     .playbook-img {
-        display: contents;
-        // order: 2;
-        color: orange;
+        margin-top: 4rem;
     }
 }
 
 @include at-media(widescreen) {
     // widescreen = 1400
     .playbook-text {
-        // order: 1;
-        color: brown;
+        margin-right: 3rem;
     }
     .playbook-img {
-        display: contents;
-        // order: 2;
-        color: brown;
+        margin-top: 2rem;
     }
 }
