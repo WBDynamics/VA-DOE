@@ -1,0 +1,86 @@
+@use "uswds-core" as *;
+
+#doe-playbook .grid-container {
+    color: #0a0808;
+    top: 2.5%;
+    width: 83.5%;
+}
+
+.playbook-text {
+    order: 1;
+}
+.playbook-img {
+    order: 2;
+}
+
+.button-vha {
+    font-size: 1rem;
+    background-color: #337CB4;
+}
+
+@include at-media(mobile) {
+    // mobile = 320
+    .playbook-img {
+        display: none;
+    }
+}
+
+@include at-media(mobile-lg) {
+    // mobile-lg = 480
+    .playbook-img {
+        display: none;
+    }
+}
+
+@include at-media(tablet) {
+    // tablet = 640
+    .playbook-text {
+        margin-top: 2rem;
+    }
+    .playbook-img {
+        display: contents;
+    }
+}
+
+@include at-media(tablet-lg) {
+    // tablet-lg = 880
+    .playbook-text {
+        margin-right: 2rem;
+    }
+    .playbook-img {
+        display: flex;
+        flex-direction: reverse;
+        margin-top: 6.5rem;
+    }
+    
+}
+
+@include at-media(desktop) {
+    // desktop = 1024
+    .playbook-text {
+        margin-right: 2rem;
+    }
+    .playbook-img {
+        margin-top: 5rem;
+    }
+}    
+
+@include at-media(desktop-lg) {
+    // desktop-lg = 1200
+    .playbook-text {
+        margin-right: 2rem;
+    }
+    .playbook-img {
+        margin-top: 4rem;
+    }
+}
+
+@include at-media(widescreen) {
+    // widescreen = 1400
+    .playbook-text {
+        margin-right: 3rem;
+    }
+    .playbook-img {
+        margin-top: 2rem;
+    }
+}
