@@ -132,12 +132,16 @@
     //    font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1600 - 320)));
        margin-bottom: 48px;
        color: #fff;
-     }
+    }
+
+    .masthead__border .block {
+        transform-origin: bottom left;
+    }
 
 }
 
 
-.secondary-sub {
+.secondary-banner {
     background: linear-gradient(180deg, #4F5B9B 0%, #347DB5 100%);
     display: flex;
     padding: 120px 0px;
@@ -145,10 +149,24 @@
     align-items: center;
 }
 
-.secondary-sub__tagline {
+.secondary-banner__tagline {
     color: #F0F0F0;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: 162%;
 }
+
+.secondary-row {
+    color: #000;
+    margin-bottom: 8%;
+
+    h3 {
+      color: #337CB4;
+    }
+
+    img {
+        border-radius: 6px;
+    }
+}
+  
