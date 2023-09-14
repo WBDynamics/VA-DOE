@@ -47,7 +47,7 @@
         }
     }
 
-    @include at-media(tablet-lg) {
+    @include at-media(desktop) {
         // padding-top: 59%;
         height: 35vw;
         margin-bottom: 10%;
@@ -190,20 +190,28 @@
         border-radius: 6px;
     }
 
-    @include at-media(tablet) {
+    @include at-media(desktop) {
         margin-bottom: 8%;
+    }
+}
+
+.secondary-row.one {
+    @include at-media(desktop) {
+        .row1A p {
+            padding-right: 11%;
+        }
     }
 }
 
 .secondary-row.two {
 
-    .rowA img {
+    .row2A img {
         border-radius: 6px;
         margin-left: 2.5%;
         width: 95%;
     }
 
-    .rowA, .rowB {
+    .row2A, .row2B {
         z-index: 2;
     }
 
@@ -214,8 +222,10 @@
         }
     }
 
-    @include at-media(tablet) {
-        .rowA img {
+    @include at-media(desktop) {
+        margin-bottom: 200px;
+
+        .row2A img {
             margin-left: 0;
             width: 100%;
         }
@@ -227,19 +237,19 @@
         }
 
         .row-custom-background {
-            width: 600px;
+            width: 700px;
             top: 0;
             left: 23%;
             height: 100%;
             z-index: 2;
         }
 
-        .rowA img {
+        .row2A img {
             border-radius: 6px;
             width: 80%;
         }
 
-        .rowB {
+        .row2B {
             background: #e3eef7;
             padding: 10% 5% 10% 0;
             border-radius: 8px;
@@ -276,7 +286,7 @@
     top: -13%;
 }
 
-@include at-media(tablet) {
+@include at-media(desktop) {
     .row2-lines-mobile {
         display: none;
     }
