@@ -134,10 +134,15 @@
        color: #fff;
     }
 
-    .masthead__border .block {
+    .masthead__border .block-color-2 {
+        left: -2%;
         transform-origin: bottom left;
-    }
 
+        @include at-media(tablet) {
+            left: auto !important;
+            transform-origin: unset !important;
+        }
+    }
 }
 
 
@@ -159,7 +164,23 @@
 
 .secondary-row {
     color: #000;
-    margin-bottom: 8%;
+    margin-bottom: 20%;
+
+    .row-custom-background {
+        display: flex;
+        width: 95%;
+        top: -5%;
+        margin: 0 auto;
+        left: 2.5%;
+        height: 110%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+        border-radius: 8px;
+        background: #e3eef7;
+        z-index: 1;
+    }
 
     h3 {
       color: #337CB4;
@@ -168,5 +189,95 @@
     img {
         border-radius: 6px;
     }
+
+    @include at-media(tablet) {
+        margin-bottom: 8%;
+    }
 }
-  
+
+.secondary-row.two {
+
+    .rowA img {
+        border-radius: 6px;
+        margin-left: 2.5%;
+        width: 95%;
+    }
+
+    .rowA, .rowB {
+        z-index: 2;
+    }
+
+    @include at-media(mobile) {
+        .grid-row {
+            display: flex;
+            flex-flow: column-reverse;
+        }
+    }
+
+    @include at-media(tablet) {
+        .rowA img {
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+
+    @include at-media(desktop) {
+        .grid-row {
+            flex-flow: row;
+        }
+
+        .row-custom-background {
+            width: 600px;
+            top: 0;
+            left: 23%;
+            height: 100%;
+            z-index: 2;
+        }
+
+        .rowA img {
+            border-radius: 6px;
+            width: 80%;
+        }
+
+        .rowB {
+            background: #e3eef7;
+            padding: 10% 5% 10% 0;
+            border-radius: 8px;
+        }
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .row2-lines {
+        display: none;
+    }
+}
+
+.row2-lines {
+    right: 0;
+    top: -20%;
+
+    @media screen and (min-width: 1026px) {
+        display: block;
+    }
+
+    @media screen and (min-width: 1026px) and (max-width: 1400px) {
+        right: -20%;
+        top: -15%;
+
+        & img {
+            width: 90%;
+        }
+    }
+}
+
+.row2-lines-mobile {
+    z-index: 0;
+    top: -13%;
+}
+
+@include at-media(tablet) {
+    .row2-lines-mobile {
+        display: none;
+    }
+}
