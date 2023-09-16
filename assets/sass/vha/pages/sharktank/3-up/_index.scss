@@ -1,0 +1,107 @@
+@use "uswds-core" as *;
+
+
+.three-stories {
+
+    color: #0a0808;
+    .h1, h1 {
+        margin-top: 0;
+    }
+
+    .h2, h2 {
+        margin: 0;
+    }
+
+    .h3, h3 {
+        margin-top: 1em;
+    }
+
+    &__content {
+        position: relative;
+        z-index: 10;
+    }
+
+    &__img {
+        position: relative;
+
+        &-container {
+            position: relative;
+            z-index: 10;
+        }    
+    }
+
+
+    &__logo-stroke {
+        position: absolute;
+        z-index: 1;
+    }
+
+    @include at-media(mobile) {
+        &__logo-stroke { 
+            height: 80%;
+            width: 80%;
+
+            &.logo-stroke-1 {
+                top: 35px;
+                left: -85px;
+            }
+
+            &.logo-stroke-2 {
+                top: -20px;
+                left: -35px;
+            }            
+        }        
+    }
+
+    @include at-media(tablet-lg) {
+        &__logo-stroke {
+            height: 80%;
+            width: 80%;
+
+            &.logo-stroke-1 {
+                top: 35px;
+                left: -90px;
+            }
+
+            &.logo-stroke-2 {
+                top: -20px;
+                left: -55px;
+            }            
+        }        
+    }
+
+    @include at-media(desktop) {
+        &__logo-stroke {
+            height: 80%;
+            width: 80%;
+
+            &.logo-stroke-1 {
+                top: 35px;
+                left: -110px;
+            }
+
+            &.logo-stroke-2 {
+                top: -30px;
+                left: -50px;
+            }            
+        }
+    }
+  
+    @include at-media(desktop-lg) {
+        &__logo-stroke {
+            height: 80%;
+            width: 80%;
+
+            &.logo-stroke-1 {
+                top: 50px;
+                left: -100px;
+            }
+
+            &.logo-stroke-2 {
+                top: -50px;
+                left: -50px;
+            }            
+        }
+    }
+
+}
