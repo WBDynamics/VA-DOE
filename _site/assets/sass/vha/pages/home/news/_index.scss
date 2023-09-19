@@ -4,7 +4,7 @@
 }
 
 .usa-card__container {
-  min-height: 300px;
+  min-height: 330px;
   border-color: #CCCCCC !important;
   box-shadow: 0px 4px 7px 2px #E1E1E1!important;
 }
@@ -115,9 +115,13 @@ a.card-group-tags {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .owl-nav {
     left: 1.5%;
+  }
+
+  .usa-card__container {
+    min-height: 370px;
   }
 }
 
