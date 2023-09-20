@@ -33,4 +33,4 @@ $(".usa-card__body p:empty").remove();
 
 
 var minheight = $('.owl-carousel').height();
-$('.usa-card__container').css("min-height", minheight - 20);
+$('.owl-carousel .usa-card__container').css("min-height", minheight - 20);
