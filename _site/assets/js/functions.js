@@ -41,7 +41,6 @@ $(".smooth-scroll").on('click', function (event) {
 	} // End if
 });
 
-
 $('.scroll').on('click',function(e) {
 	e.preventDefault();
 	var offset = 0;
@@ -54,7 +53,24 @@ $('.scroll').on('click',function(e) {
 	});
 });
 
-
 $(function() {
 	$('.lazy').Lazy();
+});
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+	dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:2
+        },
+        1400:{
+            items:3
+        }
+    }
 });
