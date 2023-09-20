@@ -30,3 +30,132 @@
     }
     
 }
+
+// Ronald example styles
+.secondary-row {
+    color: #fff;
+    margin-bottom: 20%;
+
+    .row-custom-background {
+        display: flex;
+        width: 95%;
+        top: -5%;
+        margin: 0 auto;
+        left: 2.5%;
+        height: 110%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+        border-radius: 8px;
+        // background: #e3eef7;
+        background: linear-gradient(180deg, #4E5A9A 0%, #337CB4 100%);
+        z-index: 1;
+    }
+
+    h3 {
+      color: #337CB4;
+    }
+
+    img {
+        border-radius: 6px;
+    }
+
+    @include at-media(desktop) {
+        margin-bottom: 8%;
+    }
+}
+
+#secondary-row1.secondary-row.one {
+    @include at-media(desktop) {
+        .row1A p {
+            padding-right: 11%;
+        }
+    }
+}
+
+#secondary-row2.secondary-row.two {
+
+    .row2A img {
+        border-radius: 6px;
+        margin-left: 2.5%;
+        width: 95%;
+    }
+
+    .row2A, .row2B {
+        z-index: 2;
+    }
+
+    @include at-media(mobile) {
+        .grid-row {
+            display: flex;
+            flex-flow: column-reverse;
+        }
+    }
+
+    @include at-media(desktop) {
+        margin-bottom: 200px;
+
+        .row2A img {
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+
+    @include at-media(desktop) {
+        .grid-row {
+            flex-flow: row;
+        }
+
+        .row-custom-background {
+            width: 700px;
+            top: 0;
+            left: 23%;
+            height: 100%;
+            z-index: 2;
+        }
+
+        .row2A img {
+            border-radius: 6px;
+            width: 80%;
+        }
+
+        .row2B {
+            // background: #e3eef7;
+            background: linear-gradient(180deg, #4E5A9A 0%, #337CB4 100%);
+            padding: 10% 5% 10% 0;
+            border-radius: 8px;
+        }
+    }
+}
+
+#secondary-row2 .row2-lines {
+    right: 0;
+    top: -20%;
+
+    @media screen and (max-width: 1025px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 1026px) {
+        display: block;
+    }
+
+    @media screen and (min-width: 1026px) and (max-width: 1400px) {
+        right: -20%;
+        top: -15%;
+
+        & img {
+            width: 90%;
+        }
+    }
+}
+
+#secondary-row2 .row2-lines-mobile {
+    z-index: 0;
+    top: -13%;
+
+    @include at-media(desktop) {
+        display: none;
+    }
+}
