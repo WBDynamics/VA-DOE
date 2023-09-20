@@ -53,16 +53,13 @@ $('.scroll').on('click',function(e) {
 	});
 });
 
-$(function() {
-	$('.lazy').Lazy();
-});
-
 $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-	dots:false,
-    responsive:{
+    loop: true,
+    margin: 10,
+    nav: true,
+	dots: false,
+	autoHeight: true,
+    responsive: {
         0:{
             items:1
         },

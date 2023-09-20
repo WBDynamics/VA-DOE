@@ -24,9 +24,13 @@ var newsData = {
 
 
 // render dynamic gallery data
-newsData.data.forEach(news => $('.owl-carousel.usa-card-group').append("<div class='usa-card__container item '>" + "<a class='card-group-tags' href='" + news.url + "'>" + "<div class='usa-card__media usa-card__media--inset' >" + "<div class='usa-card__img'>" + "<img  src='" + news.img + "'alt='" + news.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h4>" + news.title + "</h4>" + "<p>" + news.description + "</p>" + "</div>" + "</a>" + "</div>")); 
+newsData.data.forEach(news => $('.owl-carousel.usa-card-group').append("<div class='usa-card__container'>" + "<a class='card-group-tags' href='" + news.url + "'>" + "<div class='usa-card__media usa-card__media--inset' >" + "<div class='usa-card__img'>" + "<img  src='" + news.img + "'alt='" + news.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h4>" + news.title + "</h4>" + "<p>" + news.description + "</p>" + "</div>" + "</a>" + "</div>")); 
 
 
 // remove empty elements
 $(".usa-card__body h4:empty").remove();
 $(".usa-card__body p:empty").remove();
+
+
+var minheight = $('.owl-carousel').height();
+$('.usa-card__container').css("min-height", minheight - 20);
