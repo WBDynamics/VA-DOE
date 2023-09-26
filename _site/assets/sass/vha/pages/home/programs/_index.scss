@@ -86,7 +86,6 @@
     [contentEditable=true]:focus {
       outline: none !important;
     }
-  }
   
   [href]:focus, [tabindex]:focus, iframe:focus {
     outline: none !important;
@@ -410,4 +409,4 @@
       display: none !important;
     }
   }
-    
+}
