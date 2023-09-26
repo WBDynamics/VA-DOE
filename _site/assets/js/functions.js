@@ -58,3 +58,35 @@ $('.scroll').on('click',function(e) {
 $(function() {
 	$('.lazy').Lazy();
 });
+
+
+$('.vha-video__play-action').magnificPopup({
+    type: 'iframe', 
+    
+    iframe: {
+       markup: '<div class="mfp-iframe-scaler">'+
+                  '<div class="mfp-close"></div>'+
+                  '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+                  '<div class="mfp-title">Some caption</div>'+
+                '</div>'
+    }
+});
+
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+	dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:2
+        },
+        1400:{
+            items:3
+        }
+    }
+});

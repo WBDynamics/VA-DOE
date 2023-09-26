@@ -1,0 +1,22 @@
+<svg width="741" height="1160" viewBox="0 0 741 1160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.36">
+<g filter="url(#filter0_f_268_626)">
+<rect x="263.353" y="190" width="360" height="360" transform="rotate(45 263.353 190)" fill="#337CB4"/>
+</g>
+<g filter="url(#filter1_f_268_626)">
+<rect x="295.88" y="460.115" width="360" height="360" transform="rotate(45 295.88 460.115)" fill="#4C599E"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_268_626" x="-181.206" y="0" width="889.117" height="889.117" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="95" result="effect1_foregroundBlur_268_626"/>
+</filter>
+<filter id="filter1_f_268_626" x="-148.679" y="270.115" width="889.117" height="889.117" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="95" result="effect1_foregroundBlur_268_626"/>
+</filter>
+</defs>
+</svg>
