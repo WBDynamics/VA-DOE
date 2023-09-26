@@ -351,12 +351,23 @@
   }
   
   @media screen and (max-width: 767px) {
+<<<<<<< HEAD
+<<<<<<<< HEAD:assets/sass/vha/vendors/owl-carousel/_index.scss
+=======
+<<<<<<<< HEAD:_site/assets/sass/vha/vendors/owl-carousel/_index.scss
+>>>>>>> main
     .owl-carousel .owl-nav button {
       &.owl-prev, &.owl-next {
         // display: none !important;
       }
     }
   
+========
+<<<<<<< HEAD
+>>>>>>>> main:_site/assets/sass/vha/vendors/owl-carousel/_index.scss
+=======
+>>>>>>>> main:assets/sass/vha/vendors/owl-carousel/_index.scss
+>>>>>>> main
     .president-award-logo {
       height: 30vw;
       margin-top: 0;
@@ -449,6 +460,10 @@
     .owl-theme .owl-dots {
       -webkit-tap-highlight-color: transparent;
       margin-top: 0;
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+      display: block !important;
     }
   }
   
