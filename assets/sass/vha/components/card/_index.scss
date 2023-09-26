@@ -1,6 +1,29 @@
 @use "uswds-core" as *;
 
+.usa-card__container {
+    // background-color: #{color("gray-90")};
+    border: 1px solid var(--base-base-lightest, #F0F0F0);
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.10);
+}
+
+.usa-card__img {
+    background: none;
+}
+
 .usa-card__heading,
 .usa-card__container {
     font-family: "Myriad-Pro", helvetica, arial, sans-serif;
+    color: #0a0808;
+
+    img {
+        padding-bottom: 1.5em;
+    }
+}
+
+.vha-card {
+
+    .usa-button--unstyled {
+        color: #{color("base-lightest")};
+        font-family: "Myriad-Pro", Helvetica, arial, sans-serif;
+    }
 }

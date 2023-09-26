@@ -72,6 +72,8 @@ $('.owl-carousel').owlCarousel({
     }
 });
 
+<<<<<<< HEAD
+=======
 
 $('.vha-video__play-action').magnificPopup({
     type: 'iframe', 
@@ -86,6 +88,7 @@ $('.vha-video__play-action').magnificPopup({
 });
 
 
+>>>>>>> main
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
