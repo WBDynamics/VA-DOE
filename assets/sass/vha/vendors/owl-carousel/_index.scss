@@ -351,12 +351,6 @@
   }
   
   @media screen and (max-width: 767px) {
-    .owl-carousel .owl-nav button {
-      &.owl-prev, &.owl-next {
-        display: none !important;
-      }
-    }
-  
     .president-award-logo {
       height: 30vw;
       margin-top: 0;
@@ -449,6 +443,10 @@
     .owl-theme .owl-dots {
       -webkit-tap-highlight-color: transparent;
       margin-top: 0;
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+      display: block !important;
     }
   }
   

@@ -1,4 +1,5 @@
 .doe-programs-wrapper {
+  margin: 20% auto 7% auto;
   margin: 0 auto 7% auto;
 }
 
@@ -32,6 +33,7 @@
     position: relative;
     background: #E8F2F8;
     width: 70%;
+    margin: 5% auto;
     margin: 0 auto 5% auto;
     z-index: 2;
   
@@ -41,6 +43,30 @@
       left: 0;
       width: 83.5%;
       position: absolute;
+  
+      h2 {
+        margin: auto;
+      }
+  
+      h5 {
+        font-size: max(9px, min(0.972222vw, 1rem));
+      }
+  
+      p {
+        font-size: max(9px, min(0.872222vw, 14px));
+        line-height: 1.2;
+      }
+    }
+  
+    .usa-button {
+      font-size: max(9px, min(0.872222vw, 14px));
+      line-height: 1.2;
+    }
+  
+    .margin-top-6p {
+      margin-top: 6%;
+    }
+  
       max-width: none !important;
   
       h1 {
@@ -161,6 +187,18 @@
       margin-top: 26%;
     }
 
+    [contentEditable=true]:focus {
+      outline: none !important;
+    }
+  }
+  
+  [href]:focus, [tabindex]:focus, iframe:focus {
+    outline: none !important;
+  }
+  
+  #doe-programs .doe-mobile-bkgd {
+    display: none;
+
     .usa-button {
       font-size: 1rem;
       line-height: 1.2;
@@ -215,6 +253,7 @@
     .doe-programs-wrapper img.blueblur-bottom {
       display: none !important;
     }
+
   }
   
   @media screen and (max-width: 880px) {
@@ -245,6 +284,20 @@
       }
   
       .row1.doe-mobile-bkgd {
+        margin: -20% auto -20% auto;
+      }
+  
+      .row2.doe-mobile-bkgd {
+        margin: -5% auto -5% auto;
+      }
+  
+      .row3.doe-mobile-bkgd, .row4.doe-mobile-bkgd, .row5.doe-mobile-bkgd, .row6.doe-mobile-bkgd {
+        margin: -15% auto -15% auto;
+      }
+  
+      .grid-container {
+        h2 {
+
         margin: -20% auto -25% auto;
       }
   
@@ -272,6 +325,12 @@
           text-align: center;
         }
   
+        h4 {
+          font-size: calc(2rem + .9vw);
+        }
+  
+        h5 {
+
         h2 {
           margin-top: 0 !important;
           font-size: calc(2rem + .9vw);
@@ -299,6 +358,14 @@
       width: 100%;
     }
   
+    .doe-svg-container {
+      width: 100%;
+  
+      > svg {
+        display: none;
+      }
+    }
+  
     #doe-programs {
       .row2, .row4, .row6 {
         display: flex;
@@ -322,18 +389,25 @@
       .row2.doe-mobile-bkgd, .row3.doe-mobile-bkgd, .row4.doe-mobile-bkgd, .row5.doe-mobile-bkgd, .row6.doe-mobile-bkgd {
         margin: -5% auto -15% auto;
       }
+    }
 
       .grid-container {
         padding: 10% 0;
       }
     }
-
-    
   }
 
   @media screen and (max-width: 880px) {
     .doe-programs-wrapper {
       margin: 0 auto;
+    }
+
+    .doe-programs-wrapper img.blueblur-top {
+      display: none !important;
+    }
+    
+    .doe-programs-wrapper img.blueblur-bottom {
+      display: none !important;
     }
   }
     
