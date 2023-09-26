@@ -2,6 +2,16 @@
 
 
 .three-stories {
+    .svg-container {
+        position: absolute;
+        z-index: -1;
+        height: 330px;
+    }
+    .svg-blur-3 {
+        right: -1485px;
+        bottom: 500px;
+    }
+    
 
     color: #0a0808;
     .h1, h1 {
@@ -30,77 +40,81 @@
         }    
     }
 
+    @include at-media(mobile) {
+        .svg-blur-2 {
+            left: -22px;
+            bottom: 500px;
+        }
+        .svg-blur-3 {
+            right: 90px;
+            bottom: 500px;
+        }
+    }
+      
 
-    &__logo-stroke {
-        position: absolute;
-        z-index: 1;
+    @include at-media(mobile-lg) {
+        .svg-blur-2 {
+            left: -20px;
+            bottom: 500px;
+        }
+        .svg-blur-3 {
+            right: -70px;
+            bottom: 500px;
+        }
     }
 
-    @include at-media(mobile) {
-        &__logo-stroke { 
-            height: 80%;
-            width: 80%;
-
-            &.logo-stroke-1 {
-                top: 35px;
-                left: -85px;
-            }
-
-            &.logo-stroke-2 {
-                top: -20px;
-                left: -35px;
-            }            
-        }        
+    @include at-media(tablet) {
+        .svg-blur-2 {
+            left: -15px;
+            bottom: 500px;
+        }
+        .svg-blur-3 {
+            right: -235px;
+            bottom: 500px;
+        }
     }
 
     @include at-media(tablet-lg) {
-        &__logo-stroke {
-            height: 80%;
-            width: 80%;
-
-            &.logo-stroke-1 {
-                top: 35px;
-                left: -90px;
-            }
-
-            &.logo-stroke-2 {
-                top: -20px;
-                left: -55px;
-            }            
-        }        
+        .svg-blur-2 {
+            left: -10px;
+            bottom: 500px;
+        }
+        .svg-blur-3 {
+            right: -470px;
+            bottom: 500px;
+        }
     }
 
     @include at-media(desktop) {
-        &__logo-stroke {
-            height: 80%;
-            width: 80%;
-
-            &.logo-stroke-1 {
-                top: 35px;
-                left: -110px;
-            }
-
-            &.logo-stroke-2 {
-                top: -30px;
-                left: -50px;
-            }            
+        .svg-blur-2 {
+            left: -20px;
+            bottom: 500px;
+        }
+        .svg-blur-3 {
+            right: -610px;
+            bottom: 500px;
         }
     }
-  
+
     @include at-media(desktop-lg) {
-        &__logo-stroke {
-            height: 80%;
-            width: 80%;
+        .svg-blur-2 {
+            left: -15px;
+            bottom: 500px;
+        }
+        .svg-blur-3 {
+            right: -780px;
+            bottom: 500px;
+        }
+    }
 
-            &.logo-stroke-1 {
-                top: 50px;
-                left: -100px;
-            }
-
-            &.logo-stroke-2 {
-                top: -50px;
-                left: -50px;
-            }            
+    @include at-media(widescreen) {
+        .svg-blur-2 {
+            left: -16px;
+            bottom: 500px;
+        }
+        .svg-blur-3 {
+            right: -980px;
+            bottom: 500px;
         }
     }
 
