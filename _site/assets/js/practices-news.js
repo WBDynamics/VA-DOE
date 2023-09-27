@@ -33,4 +33,4 @@ $(".usa-card__body p:empty").remove();
 
 
 var minheight = $('.owl-carousel.usa-card-group.practices--news').height();
-$('.owl-carousel.usa-card-group.practices--news .usa-card__container').css("min-height", minheight - 500);
+$('.owl-carousel.usa-card-group.practices--news .usa-card__container').css("min-height", minheight);
