@@ -154,14 +154,14 @@
     width: auto !important;
   }
 
-  .owl-nav {
+  #doe-news .owl-nav {
     position: relative;
     margin-top: 10%;
     display: flex;
     justify-content: center;
   }
 
-  .owl-carousel .owl-nav button {
+  #doe-news .owl-carousel .owl-nav button {
     &.owl-next {
       position: relative !important;
       top: auto !important;
@@ -184,7 +184,7 @@
   #doe-news {
     background: #F0F0F0;
     color: #000;
-    padding: 10% 0% 15% !important;
+    padding: 10% 0 10% !important;
     margin-top: 10%;
   }
 

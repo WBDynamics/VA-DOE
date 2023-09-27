@@ -1,8 +1,20 @@
 .practices--wrapper {
 
+    color: #1B1B1B;
+
+    background: no-repeat url(../../assets/img/diffusion-practices/blurred-circle.png);
+    background-position: 100% 100%;
+
     #practices-news {
       background: #e3eef7;
       color: #000;
+    }
+
+    @media screen and (max-width: 767px) {
+      #practices-news {
+        padding: 10% 0% 10% !important;
+        margin-top: 10%;
+      }
     }
 
     #practices-news .usa-card__body > {
@@ -21,12 +33,6 @@
     #practices-news .usa-card__container img, .usa-card__heading img {
       padding-bottom: 0;
     }
-
-    color: #1B1B1B;
-
-    background: no-repeat url(../../assets/img/diffusion-practices/blurred-circle.png);
-    background-position: 100% 100%;
-
     button {
         background:#337CB4;
     }
@@ -266,13 +272,6 @@
     
       .usa-card__container {
         max-height: none;
-      }
-    
-      #practices-news {
-        // background: #F0F0F0;
-        color: #000;
-        padding: 10% 0% 15% !important;
-        margin-top: 10%;
       }
     
       #practices-news .usa-card__body > {
