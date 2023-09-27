@@ -1,21 +1,21 @@
 #doe-news {
-  background: #F0F0F0;
+  background: #F0F0F0 !important;
   color: #000;
 }
 
-.usa-card__container {
+#doe-news .usa-card__container {
   min-height: 330px;
   border-color: #CCCCCC !important;
   box-shadow: 0px 4px 7px 2px #E1E1E1!important;
 }
 
-.owl-nav {
+#doe-news .owl-nav {
   position: absolute;
   top: 105%;
   left: 1%;
 }
 
-.owl-carousel {
+#doe-news .owl-carousel {
   .usa-card__media--inset .usa-card__img {
     border-radius: 7px !important;
     background: #fff !important;
@@ -54,17 +54,17 @@
   }
 }
 
-.usa-card_body {
+#doe-news .usa-card_body {
   padding-bottom: 5% !important;
 }
 
-.usa-card_header {
+#doe-news .usa-card_header {
   p {
     font-size: max(22px, min(0.972222vw, 22px))
   }
 }
 
-.usa-card__body {
+#doe-news .usa-card__body {
   color: #000 !important;
   line-height: 1.2 !important;
   padding-left: 1rem !important;
@@ -85,17 +85,18 @@
   }
 }
 
-.usa-card__media--inset {
+#doe-news .usa-card__media--inset {
   padding-top: 1rem !important;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
 }
 
-a.card-group-tags {
+#doe-news a.card-group-tags {
   text-decoration: none;
 }
 
-.owl-carousel .owl-nav button.owl-next>span, .owl-carousel .owl-nav button.owl-prev>span {
+#doe-news .owl-carousel .owl-nav button.owl-next>span, 
+#doe-news .owl-carousel .owl-nav button.owl-prev>span {
   width: 24px;
   height: 24px;
 }
@@ -115,17 +116,17 @@ a.card-group-tags {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .owl-nav {
+  #doe-news .owl-nav {
     left: 1.5%;
   }
 
-  .usa-card__container {
+  #doe-news .usa-card__container {
     min-height: 370px;
   }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px)  {
-  .usa-card__container {
+  #doe-news .usa-card__container {
     min-height: 412px;
   }
 }
@@ -143,7 +144,7 @@ a.card-group-tags {
 }
 
 @media screen and (max-width: 767px) {
-  .owl-carousel {
+  #doe-news .owl-carousel {
     .owl-nav button {
       &.owl-next, &.owl-prev {
         display: block !important;
@@ -176,7 +177,7 @@ a.card-group-tags {
     }
   }
 
-  .usa-card__container {
+  #doe-news .usa-card__container {
     max-height: none;
   }
 
@@ -187,7 +188,7 @@ a.card-group-tags {
     margin-top: 10%;
   }
 
-  .usa-card__body > {
+  #doe-news .usa-card__body > {
     h4, p {
       font-size: calc(1rem + .9vw) !important;
     }

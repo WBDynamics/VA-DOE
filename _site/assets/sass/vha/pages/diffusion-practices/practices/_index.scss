@@ -1,9 +1,31 @@
 .practices--wrapper {
 
+    #practices-news {
+      background: #e3eef7;
+      color: #000;
+    }
+
+    #practices-news .usa-card__body > {
+      h4, p {
+        overflow: visible !important;
+        -webkit-line-clamp: revert !important; 
+        line-clamp: revert !important;
+        -webkit-box-orient: vertical !important;
+      }
+    }
+
+    #practices-news h1 {
+      font-size: 40px;
+    }
+
+    #practices-news .usa-card__container img, .usa-card__heading img {
+      padding-bottom: 0;
+    }
+
     color: #1B1B1B;
 
     background: no-repeat url(../../assets/img/diffusion-practices/blurred-circle.png);
-    background-position: 100% 85%;
+    background-position: 100% 100%;
 
     button {
         background:#337CB4;
@@ -37,8 +59,12 @@
         padding-bottom: 15%;
     }
 
-    .secondary-row__content-wrapper {
-        margin-bottom: 15%;
+    @media (min-width: 64em) {    
+      #secondary-row2.secondary-row.two .row2B {
+        background: none;
+        padding: 10% 5% 10%0;
+        border-radius: 8px;
+      }
     }
 
     @media screen and (min-width: 880px) {
@@ -74,17 +100,16 @@
     }
 
     // custom carousel styles
-    #doe-news {
+    #practices-news {
       background: #E3EEF7;
       color: #000;
-    }
 
-    .usa-card__container {
-      border-color: #CCCCCC !important;
-      box-shadow: 0px 4px 7px 2px #E1E1E1!important;
-    }
-    
-    .owl-nav {
+      .usa-card__container {
+        border-color: #CCCCCC !important;
+        box-shadow: 0px 4px 7px 2px #E1E1E1!important;
+      }
+      
+      .owl-nav {
       position: absolute;
       top: 105%;
       left: 1%;
@@ -170,14 +195,14 @@
     }
     
     @media (min-width: 64em) {
-      #doe-news .use-card_header, .usa-card_body {
+      #practices-news .use-card_header, .usa-card_body {
         padding-left: 2rem !important;
         padding-right: 0 !important;
       }
     }
     
     @media (min-width: 64em) {
-      #doe-news .grid-row.grid-gap > * {
+      #practices-news .grid-row.grid-gap > * {
         padding-left: 1rem;
         padding-right: 0 !important;
       }
@@ -190,18 +215,22 @@
     }
     
     @media screen and (min-width: 768px) and (max-width: 769px) {
-      #doe-news {
+      #practices-news {
         padding: 5% 0 14% 0 !important
       }
     }
     
     @media screen and (min-width: 770px) and (max-width: 1025px) {
-      #doe-news {
+      #practices-news {
         padding: 5% 0 8% 0 !important
       }
     }
     
     @media screen and (max-width: 767px) {
+      #practices-news  h1 {
+        margin-top: 12%;
+      }
+
       .owl-carousel {
         .owl-nav button {
           &.owl-next, &.owl-prev {
@@ -239,20 +268,20 @@
         max-height: none;
       }
     
-      #doe-news {
+      #practices-news {
         // background: #F0F0F0;
         color: #000;
         padding: 10% 0% 15% !important;
         margin-top: 10%;
       }
     
-      .usa-card__body > {
+      #practices-news .usa-card__body > {
         h4, p {
           font-size: calc(1rem + .9vw) !important;
         }
       }
     
-      #doe-news .usa-card_header {
+      #practices-news .usa-card_header {
         h1 {
           font-size: calc(2.325rem + .9vw);
         }
@@ -262,6 +291,6 @@
         }
       }
     }
-
+  }
 }
 
