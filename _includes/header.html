@@ -158,9 +158,8 @@
               <a href="/ecosystem/views/innovators-network/innovators-network.html"
                 class="font-body-md"><span>Innovators Network</span></a>
             </li>
-            <li class="usa-nav__submenu-item" title="VHA Diffusion of Excellence">
-              <a href="/ecosystem/views/diffusion-excellence/doe.html" class="font-body-md"><span>Diffusion of
-                  Excellence</span></a>
+            <li class="usa-nav__submenu-item" focus="" title="VHA Diffusion of Excellence" onmouseover="ShowSolutionsMenu();">
+              <a class="font-body-md" id="aDOE" href="/ecosystem/views/diffusion-excellence/doe.html">Diffusion of Excellence&nbsp;&nbsp;>&nbsp;<i class="fa fa-angle-right fa-1x"></i> </a>
             </li>
             <li class="usa-nav__submenu-item" title="VHA National Centers for Innovation to Impact">
               <a href="/ecosystem/views/national-centers/nci2i.html" class="font-body-md"><span>National Centers for
@@ -174,6 +173,15 @@
                   Engagement</span></a>
             </li>
           </ul>
+          <div id="smDiv1" class="grid-col-3" style="display: none;">
+            <div class="grid-row">
+                <ul class="usa-nav__submenu" style="width:100% !important;">
+                    <li class="usa-nav__submenu-item"> <a class="font-body-md" href="https://marketplace.va.gov/">Diffusion Marketplace</a> </li>
+                    <li class="usa-nav__submenu-item"> <a class="font-body-md" href="/sharktank">VHA Shark Tank Competition</a> </li>
+                    <li class="usa-nav__submenu-item"> <a class="font-body-md" href="/national-diffusion-practices">National Diffusion Practices</a> </li>
+                </ul>
+            </div>
+          </div>
         </li>
         <li class="usa-nav__primary-item" title="Pathfinder">
           <a href="https://www.pathfinder.va.gov/" class="usa-nav-link font-body-md"><span>Pathfinder</span></a>
@@ -199,4 +207,14 @@
     </div>
   </nav>
 </header>
+
+<script>
+  function ShowSolutionsMenu() {
+    document.getElementById("smDiv1").style.display = "block";
+  }
+  $(window).click(function () {
+    document.getElementById("smDiv1").style.display = "none";
+  });
+
+</script>
 <!-- END USWDS Header, extended-->

@@ -97,3 +97,34 @@
         margin: 1rem 0 1.5rem 0rem;
     }        
 }
+
+#smDiv1 {
+    width: 300px;
+    margin-left: 80%;
+}
+
+@media screen and (min-width: 768px) {
+    #smDiv1 {
+        li, a {
+            background: #fff !important;
+            color: #0e1d33 !important;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #smDiv1 {
+        width: auto;
+        background: #0e1d33 !important;
+        color: #fff !important;
+        margin-left: 0%;
+
+        li, a {
+            color: #fff !important;
+        }
+
+        li:hover, a:hover {
+            color: #565c65 !important;
+        }
+    }
+}
