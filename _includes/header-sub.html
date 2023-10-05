@@ -151,21 +151,21 @@
         <li class="usa-nav__primary-item">
           <button type="button" class="usa-accordion__button usa-nav__link two" aria-expanded="false"
             aria-controls="extended-nav-section-two">
-            <span class="font-body-md">Portfolios and Programs</span><span><i class="arrow down two position-absolute"></i>
+            <span class="font-body-md">Portfolios and Programs</span><span><i class="arrow down two position-absolute"></span></i>
           </button>
           <ul id="extended-nav-section-two" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item one" title="VHA Innovators Network" onmouseover="ShowSolutionsMenu1();">
               <a href="/ecosystem/views/innovators-network/innovators-network.html"
-                class="font-body-md"><span>Innovators Network&nbsp;&nbsp;>&nbsp;</span></a>
+                class="font-body-md"><span>Innovators Network</span><span><i class="arrow right one"></i></span></a>
             </li>
             <li class="usa-nav__submenu-item two" focus="" title="VHA Diffusion of Excellence" onmouseover="ShowSolutionsMenu2();">
-              <a class="font-body-md" href="/ecosystem/views/_site/index.html">Diffusion of Excellence&nbsp;&nbsp;>&nbsp;</a>
+              <a class="font-body-md" href="/ecosystem/views/_site/index.html"><span>Diffusion of Excellence</span><span><i class="arrow right two"></i></span></a>
             </li>
             <li class="usa-nav__submenu-item three" title="VHA National Centers for Innovation to Impact" onmouseover="ShowSolutionsMenu3();">
-              <a href="/ecosystem/views/national-centers/nci2i.html" class="font-body-md"><span>National Centers for Innovation to Impact &nbsp;&nbsp;>&nbsp;</span></a>
+              <a href="/ecosystem/views/national-centers/nci2i.html" class="font-body-md"><span>National Centers for Innovation to Impact</span><span><i class="arrow right three"></i></span></a>
             </li>
             <li class="usa-nav__submenu-item four" title="VHA IE Fellowships" onmouseover="ShowSolutionsMenu4();">
-              <a href="/ecosystem/views/programs/fellowship.html" class="font-body-md"><span>Fellowships&nbsp;&nbsp;>&nbsp;</span></a>
+              <a href="/ecosystem/views/programs/fellowship.html" class="font-body-md"><span>Fellowships</span><span><i class="arrow right four"></i></span></a>
             </li>
             <li class="usa-nav__submenu-item five" title="VHA IE Community Engagement" onmouseover="ShowSolutionsMenu5();">
               <a href="/ecosystem/views/programs/community-engagement.html" class="font-body-md"><span>Community
@@ -284,5 +284,29 @@
     document.getElementById("smDiv4").style.display = "none";
     document.getElementById("smDiv5").style.display = "none";
   });
+
+  if (window.innerWidth < 1025) {
+    $(".arrow.right.one").click(function () {
+      ShowSolutionsMenu1();
+    }); 
+
+    $(".arrow.right.two").click(function () {
+      ShowSolutionsMenu2();
+    }); 
+
+    $(".arrow.right.three").click(function () {
+      ShowSolutionsMenu3();
+    }); 
+
+    $(".arrow.right.four").click(function () {
+      ShowSolutionsMenu4();
+    }); 
+
+    $(".arrow.right.five").click(function () {
+      ShowSolutionsMenu5();
+    }); 
+  }
+  
+
 </script>
 <!-- END USWDS Header, extended-->
