@@ -149,7 +149,6 @@
 #secondary-banner.secondary-banner {
     background: linear-gradient(180deg, #4F5B9B 0%, #347DB5 100%);
     display: flex;
-    padding: 120px 0px;
     flex-direction: column;
     align-items: center;
 
@@ -161,6 +160,18 @@
         line-height: 162%;
     }
 }
+
+
+#secondary-banner.secondary-banner {
+    padding: 60px 0px;
+}
+
+@include at-media(desktop) {
+    #secondary-banner.secondary-banner {
+        padding: 120px 0px;
+    }
+}
+
 
 .secondary-row {
     color: #000;
@@ -237,9 +248,9 @@
         }
 
         .row-custom-background {
-            width: 700px;
+            width: 32vw;
             top: 0;
-            left: 23%;
+            left: 32vw;
             height: 100%;
             z-index: 2;
         }
@@ -253,6 +264,12 @@
             background: #e3eef7;
             padding: 10% 5% 10% 0;
             border-radius: 8px;
+        }
+    }
+
+    @media screen and (min-width: 2500px) {
+        .row-custom-background {
+            left: 38vw;
         }
     }
 }
@@ -276,6 +293,10 @@
         & img {
             width: 90%;
         }
+    }
+
+    @media screen and (min-width: 2500px) {
+        right: 15%;
     }
 }
 
