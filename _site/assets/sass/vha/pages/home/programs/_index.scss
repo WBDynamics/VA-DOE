@@ -75,7 +75,6 @@
   }
 
   .usa-button {
-    font-size: max(9px, min(0.872222vw, 14px));
     line-height: 1.2;
     width: auto;
     background-color: #337cb4;
@@ -179,11 +178,6 @@
         line-height: 1.5;
       }
     }
-
-    .usa-button {
-      font-size: 0.8vw;
-      line-height: 1.5;
-    }
   }
 }
 
@@ -209,7 +203,6 @@
   display: none;
 
   .usa-button {
-    font-size: 1rem;
     line-height: 1.2;
   }
 }
@@ -362,7 +355,6 @@
       
 
         .usa-button {
-          font-size: max(1.1em, min(0.872222vw, 14px));
           line-height: 1.4;
           width: auto;
         }
