@@ -158,7 +158,7 @@
         <li class="usa-nav__primary-item">
           <button type="button" class="usa-accordion__button usa-nav__link" aria-expanded="false"
             aria-controls="extended-nav-section-one">
-            <span class="font-body-md">About </span>
+            <span class="font-body-md">About&nbsp;&nbsp;&nbsp; </span><i class="arrow down one position-absolute"></i>
           </button>
           <ul id="extended-nav-section-one" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
@@ -172,31 +172,67 @@
           </ul>
         </li>
         <li class="usa-nav__primary-item">
-          <button type="button" class="usa-accordion__button usa-nav__link" aria-expanded="false"
+          <button type="button" class="usa-accordion__button usa-nav__link two" aria-expanded="false"
             aria-controls="extended-nav-section-two">
-            <span class="font-body-md">Portfolios and Programs</span> <img class="portfolio-dropdown" src="assets/uswds/img/usa-icons/expand_more-yellow.svg" />
+            <span class="font-body-md">Portfolios and Programs</span><span><i class="arrow down two position-absolute"></span></i>
           </button>
           <ul id="extended-nav-section-two" class="usa-nav__submenu">
-            <li class="usa-nav__submenu-item" title="VHA Innovators Network">
+            <li class="usa-nav__submenu-item one" title="VHA Innovators Network" onmouseover="ShowSolutionsMenu1();">
               <a href="/ecosystem/views/innovators-network/innovators-network.html"
-                class="font-body-md"><span>Innovators Network</span></a>
+                class="font-body-md"><span>Innovators Network</span><span><i class="arrow right one"></i></span></a>
             </li>
-            <li class="usa-nav__submenu-item" title="VHA Diffusion of Excellence">
-              <a href="/ecosystem/views/diffusion-excellence/doe.html" class="font-body-md"><span>Diffusion of
-                  Excellence</span></a>
+            <li class="usa-nav__submenu-item two" focus="" title="VHA Diffusion of Excellence" onmouseover="ShowSolutionsMenu2();">
+              <a class="font-body-md" href="/ecosystem/views/_site/index.html"><span>Diffusion of Excellence</span><span><i class="arrow right two"></i></span></a>
             </li>
-            <li class="usa-nav__submenu-item" title="VHA National Centers for Innovation to Impact">
-              <a href="/ecosystem/views/national-centers/nci2i.html" class="font-body-md"><span>National Centers for
-                  Innovation to Impact</span></a>
+            <li class="usa-nav__submenu-item three" title="VHA National Centers for Innovation to Impact" onmouseover="ShowSolutionsMenu3();">
+              <a href="/ecosystem/views/national-centers/nci2i.html" class="font-body-md"><span>National Centers for Innovation to Impact</span><span><i class="arrow right three"></i></span></a>
             </li>
-            <li class="usa-nav__submenu-item" title="VHA IE Fellowships">
-              <a href="/ecosystem/views/programs/fellowship.html" class="font-body-md"><span>Fellowships</span></a>
+            <li class="usa-nav__submenu-item four" title="VHA IE Fellowships" onmouseover="ShowSolutionsMenu4();">
+              <a href="/ecosystem/views/programs/fellowship.html" class="font-body-md"><span>Fellowships</span><span><i class="arrow right four"></i></span></a>
             </li>
-            <li class="usa-nav__submenu-item" title="VHA IE Community Engagement">
+            <li class="usa-nav__submenu-item five" title="VHA IE Community Engagement" onmouseover="ShowSolutionsMenu5();">
               <a href="/ecosystem/views/programs/community-engagement.html" class="font-body-md"><span>Community
                   Engagement</span></a>
             </li>
+            <div id="smDiv1" class="smDiv grid-col-3" style="display: none;">
+              <div class="grid-row">
+                  <ul class="usa-nav__submenu" style="width:100% !important;">
+                      <li class="usa-nav__submenu-item"> <a class="font-body-md" href="/ecosystem/views/innovators-network/spark-seed-spread.html">Spark-Seed-Spread</a> </li>
+                      <li class="usa-nav__submenu-item"> <a class="font-body-md" href="/ecosystem/views/innovators-network/greenhouse-initiative.html">Greenhouse Initiative</a> </li>
+                      <li class="usa-nav__submenu-item"> <a class="font-body-md" href="/ecosystem/views/innovators-network/inet-resources.html">Employee Innovator Fundamentals</a> </li>
+                  </ul>
+              </div>
+            </div>
+            <div id="smDiv2" class="smDiv grid-col-3" style="display: none;">
+              <div class="grid-row">
+                  <ul class="usa-nav__submenu" style="width:100% !important;">
+                      <li class="usa-nav__submenu-item"> <a class="font-body-md" href="https://marketplace.va.gov/">Diffusion Marketplace</a> </li>
+                      <li class="usa-nav__submenu-item"> <a class="font-body-md" href="/sharktank">VHA Shark Tank Competition</a> </li>
+                      <li class="usa-nav__submenu-item"> <a class="font-body-md" href="/national-diffusion-practices">National Diffusion Practices</a> </li>
+                      <li class="usa-nav__submenu-item"> <a class="font-body-md" href="/diffusion-talent-accelerator">Talent Accelerator</a> </li>
+                  </ul>
+              </div>
+            </div>
+            <div id="smDiv3" class="smDiv grid-col-3" style="display: none;">
+              <div class="grid-row">
+                <ul class="usa-nav__submenu" style="width:100% !important;">
+                    <li class="usa-nav__submenu-item"> <a class="font-body-md" href="/ecosystem/views/national-centers/ncchi/">National Center for Collaborative Healthcare Innovation</a> </li>
+                    <li class="usa-nav__submenu-item"> <a class="font-body-md" href="/ecosystem/views/national-centers/necie.html">New England Center for Innovation Excellence</a> </li>
+                </ul>
+              </div>
+            </div>
+            <div id="smDiv4" class="smDiv grid-col-3" style="display: none;">
+              <div class="grid-row">
+                <ul class="usa-nav__submenu" style="width:100% !important;">
+                    <li class="usa-nav__submenu-item"> <a class="font-body-md" href="/ecosystem/views/programs/fellowship-sif.html">Senior Innovation Fellowship</a> </li>
+                    <li class="usa-nav__submenu-item"> <a class="font-body-md" href="/ecosystem/views/programs/fellowship-erf.html">Entrepreneur in Residence Fellowship</a> </li>
+                    <li class="usa-nav__submenu-item"> <a class="font-body-md" href="https://catalyst.mit.edu/">MIT Catalyst Fellowship</a> </li>
+                    <li class="usa-nav__submenu-item"> <a class="font-body-md" href="/ecosystem/views/programs/fellowship-application.html">Fellowships Application</a> </li>
+                </ul>
+              </div>
+            </div>
           </ul>
+          
         </li>
         <li class="usa-nav__primary-item" title="Pathfinder">
           <a href="https://www.pathfinder.va.gov/" class="usa-nav-link font-body-md"><span>Pathfinder</span></a>
@@ -222,6 +258,80 @@
     </div>
   </nav>
 </header>
+
+<script>
+  function ShowSolutionsMenu1() {
+    document.getElementById("smDiv1").style.display = "block";
+    document.getElementById("smDiv2").style.display = "none";
+    document.getElementById("smDiv3").style.display = "none";
+    document.getElementById("smDiv4").style.display = "none";
+    document.getElementById("smDiv5").style.display = "none";
+  }
+
+  function ShowSolutionsMenu2() {
+    document.getElementById("smDiv1").style.display = "none";
+    document.getElementById("smDiv2").style.display = "block";
+    document.getElementById("smDiv3").style.display = "none";
+    document.getElementById("smDiv4").style.display = "none";
+    document.getElementById("smDiv5").style.display = "none";
+  }
+
+  function ShowSolutionsMenu3() {
+    document.getElementById("smDiv1").style.display = "none";
+    document.getElementById("smDiv2").style.display = "none";
+    document.getElementById("smDiv3").style.display = "block";
+    document.getElementById("smDiv4").style.display = "none";
+    document.getElementById("smDiv5").style.display = "none";
+  }
+
+  function ShowSolutionsMenu4() {
+    document.getElementById("smDiv1").style.display = "none";
+    document.getElementById("smDiv2").style.display = "none";
+    document.getElementById("smDiv3").style.display = "none";
+    document.getElementById("smDiv4").style.display = "block";
+    document.getElementById("smDiv5").style.display = "none";
+  }
+
+  function ShowSolutionsMenu5() {
+    document.getElementById("smDiv1").style.display = "none";
+    document.getElementById("smDiv2").style.display = "none";
+    document.getElementById("smDiv3").style.display = "none";
+    document.getElementById("smDiv4").style.display = "none";
+    document.getElementById("smDiv5").style.display = "none";
+  }
+
+  $(window).click(function () {
+    document.getElementById("smDiv1").style.display = "none";
+    document.getElementById("smDiv2").style.display = "none";
+    document.getElementById("smDiv3").style.display = "none";
+    document.getElementById("smDiv4").style.display = "none";
+    document.getElementById("smDiv5").style.display = "none";
+  });
+
+  if (window.innerWidth < 1025) {
+    $(".arrow.right.one").click(function () {
+      ShowSolutionsMenu1();
+    }); 
+
+    $(".arrow.right.two").click(function () {
+      ShowSolutionsMenu2();
+    }); 
+
+    $(".arrow.right.three").click(function () {
+      ShowSolutionsMenu3();
+    }); 
+
+    $(".arrow.right.four").click(function () {
+      ShowSolutionsMenu4();
+    }); 
+
+    $(".arrow.right.five").click(function () {
+      ShowSolutionsMenu5();
+    }); 
+  }
+  
+
+</script>
 <!-- END USWDS Header, extended-->
       
         <main>
@@ -323,7 +433,7 @@
                         <h2 class="margin-bottom-1">VHA Shark Tank Competition</h2>
                         <h3 class="margin-top-0 margin-bottom-2">Identifying Promising Employee-developed Innovations</h3>
                         <p class="margin-top-0 margin-bottom-2">The competition shines a spotlight on passionate employees that are addressing pressing VA health care priorities. VHA Shark Tank provides frontline innovators an incredible opportunity to pitch their practice on a national stage. Then, they reel in bids with dedicated resources to replicate the practice at another VHA facility. The VHA Shark Tank marquee event is at the annual VHA Innovation Experience.</p>
-                        <a href="https://www.innovation.va.gov/ecosystem/views/diffusion-excellence/sharktank.html"><button type="button" class="usa-button position-relative">More information</button></a>
+                        <a href="https://www.innovation.va.gov/ecosystem/views/diffusion-excellence/sharktank.html"class="usa-button button-vha" title="More information">More information</a>
                     </div>
                 </div>
     
@@ -339,8 +449,7 @@
                         <h3 class="margin-top-0 margin-bottom-2">Preparing Promising Practices for Replication </h3>
                         <p class="margin-top-0 margin-bottom-2">Diffusion of Excellence Base Camp brings VHA Shark Tank winners and their selected VHA facilities together to develop implementation plans. Base Camp provides training on project and change management principles to ensure implementation success. The newly formed implementation teams walk away with actionable plans for the new VHA facilities.</p>
                         <div class="vha-video">
-                            <a href="https://www.youtube.com/watch?v=5kJl1xdaVCA" class="vha-video__play vha-video__play-action stretched-link"><button type="button" class="usa-button vha-video__poster position-relative">View 2023 Highlight Video</button>
-                            </a>
+                            <a href="https://www.youtube.com/watch?v=5kJl1xdaVCA" class="usa-button vha-video__play-action position-relative" title="View 2023 Highlight Video">View 2023 Highlight Video</a>
                         </div>
                     </div>
                     <div class="grid-col-12 tablet:grid-col-12 tablet-lg:grid-col-5 desktop-lg:grid-col-5 mobile:margin-bottom-4 vha-video">
@@ -362,7 +471,7 @@
                         <h2 class="margin-bottom-1">National Diffusion Practices</h2>
                         <h3 class="margin-top-0 margin-bottom-2">Scaling Promising Practices Across the Enterprise</h3>
                         <p class="margin-top-0 margin-bottom-2">Diffusion of Excellence implements select Promising Practices with demonstrated impact, replicability, stakeholder support, and cost effectiveness. A Diffusion Specialist from Diffusion of Excellence is assigned to each practice to promote the national implementation efforts.</p>
-                        <a href="https://www.innovation.va.gov/ecosystem/views/diffusion-excellence/national-diffusion-practices.html"><button type="button" class="usa-button position-relative">Visit VHA IE National Diffusion</button></a>
+                        <a href="https://www.innovation.va.gov/ecosystem/views/diffusion-excellence/national-diffusion-practices.html"class="usa-button button-vha" title="Visit VHA IE National Diffusion">Visit VHA IE National Diffusion</a>
                     </div>
                 </div>
     
@@ -378,8 +487,7 @@
                         <h3 class="margin-top-0 margin-bottom-2">Improving the Scalability and Sustainability of VA's Promising Innovations</h3>
                         <p class="margin-top-0 margin-bottom-2">VHA Diffusion Academy brings experienced innovators from across VHA's enterprise together to network, collaborate, and build a business case to further sustain and scale their innovations. Innovators receive training through expert panels and presentations to find resourcing opportunities, garner national stakeholder buy-in, and develop communication strategies.</p>
                         <div class="vha-video">
-                            <a href="https://www.youtube.com/watch?v=SGb5YHL3fNs" class="vha-video__play vha-video__play-action stretched-link"><button type="button" class="usa-button position-relative">Visit Diffusion Academy Video</button>
-                            </a>
+                            <a href="https://www.youtube.com/watch?v=SGb5YHL3fNs" class="usa-button vha-video__play-action position-relative" title="Visit Diffusion Academy Video">Visit Diffusion Academy Video</a>
                         </div>
                     </div>
                     <div class="grid-col-12 tablet:grid-col-12 tablet-lg:grid-col-6 desktop-lg:grid-col-5 mobile:margin-bottom-4 vha-video">
@@ -401,7 +509,7 @@
                         <h2 class="margin-bottom-1">Diffusion Talent Accelerator</h2>
                         <h3 class="margin-top-0 margin-bottom-2">Embedding a Diffusion Culture within VHA</h3>
                         <p class="margin-top-0 margin-bottom-2">Diffusion Talent Accelerator is a new offering by VHA Innovation Ecosystem that enables VISN’s and National Program Offices to build and sustain a culture of leaning by strengthening their ability to replicate and scale innovations. Participants receive training through face to face and virtual offerings that include Human Centered Design, Storytelling, Facilitation, Defining compelling metrics, and more</p>
-                        <a href="https://www.innovation.va.gov/ecosystem/views/diffusion-excellence/diffusion-talent-accelerator/"><button type="button" class="usa-button position-relative">Visit Diffusion Talent Accelerator</button></a>
+                        <a href="https://www.innovation.va.gov/ecosystem/views/diffusion-excellence/diffusion-talent-accelerator/" class="usa-button button-vha" title="Visit Diffusion Talent Accelerator">Visit Diffusion Talent Accelerator</a>
                     </div>
                 </div>
     
@@ -416,7 +524,7 @@
                         <h2 class="margin-top-0 margin-bottom-1">Diffusion Marketplace</h2>
                         <h3 class="margin-top-0 margin-bottom-2">Discover VA Innovations to Adopt at Your Facility</h3>
                         <p class="margin-top-0 margin-bottom-2">Diffusion of Excellence Base Camp brings VHA Shark Tank winners and their selected VHA facilities together to develop implementation plans. Base Camp provides training on project and change management principles to ensure implementation success. The newly formed implementation teams walk away with actionable plans for the new VHA facilities.</p>
-                        <a href="https://marketplace.va.gov/"><button type="button" class="usa-button position-relative">Visit Diffusion Marketplace</button></a>
+                        <a href="https://marketplace.va.gov/"class="usa-button button-vha" title="Visit Diffusion Marketplace">Visit Diffusion Marketplace</a>
                     </div>
                     <div class="grid-col-12 tablet:grid-col-12 tablet-lg:grid-col-6 desktop-lg:grid-col-5 mobile:margin-bottom-4">
                         <a href="https://marketplace.va.gov/"><img src="assets/img/home/row6.jpg" class="img-fluid radius-lg" alt="New Spotlight: Diffusion Marketplace" /></a>
