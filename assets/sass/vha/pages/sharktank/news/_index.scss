@@ -55,17 +55,17 @@
   }
 }
 
-.usa-card_body {
+#doe-news .usa-card_body {
   padding-bottom: 5% !important;
 }
 
-.usa-card_header {
+#doe-news .usa-card_header {
   p {
     font-size: max(22px, min(0.972222vw, 22px))
   }
 }
 
-.usa-card__body {
+#doe-news .usa-card__body {
   color: #000 !important;
   line-height: 1.2 !important;
   padding-left: 1rem !important;
@@ -86,7 +86,7 @@
   }
 }
 
-.usa-card__media--inset {
+#doe-news .usa-card__media--inset {
   padding-top: 1rem !important;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
@@ -120,13 +120,13 @@ a.card-group-tags {
     left: 1.5%;
   }
 
-  .usa-card__container {
+  #doe-news .usa-card__container {
     min-height: 370px;
   }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px)  {
-  .usa-card__container {
+  #doe-news .usa-card__container {
     min-height: 412px;
   }
 }
@@ -177,7 +177,7 @@ a.card-group-tags {
     }
   }
 
-  .usa-card__container {
+  #doe-news .usa-card__container {
     max-height: none;
   }
 
