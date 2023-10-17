@@ -5,7 +5,7 @@ var newsData = {
             "img": "../assets/img/sharktank/sharktank-bootcamp.jpg",
             "title": "Working with the Community to Save Veterans Lives",
             "description": "The VMET program assists in responding to calls involving local law enforcement interactions with veterans in crisis. This proactive outreach approach, which includes a VA clinician and VA police officer, is a first of its kind VA nationwide program to help reduce the number of veteran suicides.",
-            "url": "#"
+            "url": "https://blogs.va.gov/VAntage/99641/innovation-revolutionaries-working-with-the-community-to-save-veteran-lives/"
         },
         {
             "img": "../assets/img/sharktank/sharktank-winners-revealed.jpg",
