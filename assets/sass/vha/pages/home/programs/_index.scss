@@ -60,8 +60,8 @@
     }
 
     p {
-      font-size: max(9px, min(0.872222vw, 14px));
-      line-height: 1.2;
+      font-size: max(12px, min(0.872222vw, 14px));
+      line-height: 1.5;
     }
 
     @media screen and (max-width: 880px) {
@@ -131,7 +131,7 @@
   #doe-programs {
     .grid-container {
       h2 {
-        margin-top: 2vw !important;
+        // margin-top: 2vw !important;
       }
     }
   }
@@ -141,7 +141,7 @@
   #doe-programs {
     .grid-container {
       h2 {
-        margin-top: 1vw !important;
+        // margin-top: 1vw !important;
       }
     }
   }
@@ -165,7 +165,7 @@
       }
 
       h2 {
-        font-size: 1.5vw;
+        // font-size: 1.5vw;
       }
 
       h3 {
@@ -173,7 +173,7 @@
       }
 
       p {
-        font-size: 0.8vw;
+        font-size: 1vw;
         line-height: 1.5;
       }
     }
