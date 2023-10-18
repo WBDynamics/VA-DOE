@@ -19,7 +19,7 @@ jobs:
             password: ${{ secrets.ftp_password }}
             port: 21
             local-dir: ./_site/
-            server-dir: innovation.bgsandbox.com/ecosystem/views/programs/fellowship/
+            server-dir: innovation.bgsandbox.com/ecosystem/views/diffusion-excellence/
             exclude: |
               **/.DS_Store
               **/.git*
