@@ -1,5 +1,9 @@
+// @use "uswds-core" with (
+//     $theme-font-path: "../uswds/fonts"
+// );
+  
 @forward "uswds-theme";
-// @forward "uswds";
+@forward "uswds";
 @forward "usa-accordion";
 @forward "usa-button";
 @forward "usa-banner";
