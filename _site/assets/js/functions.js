@@ -91,3 +91,25 @@ if ($('.vha-video__play-action').length > 0){
 		}
 	});
 }
+
+
+// Accessibility functions for owl-carousel plugin
+$( document ).ready(function() {
+    if ($('.button.owl-prev').length > 0) {
+        $('.button.owl-prev').attr("aria-label", "previous");
+    }
+
+
+    if ($('.button.owl-next').length > 0) {
+        $('.button.owl-next').attr("aria-label", "next");
+    }
+
+
+    if ($('.owl-dots').length > 0) {
+        $('.owl-dots').hide();
+    }
+
+    if ($('.owl-nav button').length > 0) {
+		$(".owl-nav button").removeAttr("role");
+	}
+});
