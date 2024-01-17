@@ -70,13 +70,17 @@
   padding-left: 1rem !important;
   padding-right: 1rem !important;
 
+  .h4fs {
+    font-size: 1.125rem;
+  }
+
   > {
     h4 {
       margin-top: 1rem !important;
     }
   }
 
-  h4, p {
+  h2, h4, p {
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 2; /* number of lines to show */
