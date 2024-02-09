@@ -43,7 +43,7 @@ jobs:
     - name: 👀 Lighthouse
       uses: foo-software/lighthouse-check-action@master
       with:
-        urls: 'dev-innovation.bgsandbox.com/ecosystem/views/national-centers/ncchi/index.html, dev-innovation.bgsandbox.com/ecosystem/views/national-centers/ncchi/publications/index.html, dev-innovation.bgsandbox.com/ecosystem/views/national-centers/ncchi/our-team/index.html'
+        urls: 'https://www.innovation.va.gov/ecosystem/views/diffusion-excellence/sharktank/index.html, https://www.innovation.va.gov/ecosystem/views/diffusion-excellence/national-diffusion-practices/index.html, https://www.innovation.va.gov/ecosystem/views/diffusion-excellence/diffusion-talent-accelerator/index.html'
         device: all  
         awsAccessKeyId: ${{ secrets.LIGHTHOUSE_CHECK_AWS_ACCESS_KEY_ID }}
         awsBucket: ${{ secrets.LIGHTHOUSE_CHECK_AWS_BUCKET }}
