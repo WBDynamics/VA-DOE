@@ -2,6 +2,33 @@ var newsData = {
 
     "data": [
         {
+            "img": "../assets/img/sharktank/st.jpg",
+            "title": "2023 VHA Shark Tank Competition at iEX",
+            "description": "The VHA Shark Tank Competition shines a spotlight on employees passionate about solving some of the toughest challenges across VHA",
+            "url": "https://www.youtube.com/watch?v=rIXYUndkXR4"
+        },
+        {
+            "img": "../assets/img/sharktank/sharktank-finals-revealed.jpg",
+            "title": "Diffusion of Excellence announces 2023 VHA Shark Tank finalists",
+            "description": "Finalists prepare for 2023 VHA Shark Tank Competition at Innovation Experience",
+            "url": "https://news.va.gov/123371/diffusion-excellence-announces-shark-tank//"
+        },
+        {
+            "img": "../assets/img/sharktank/research.jpg",
+            "title": "Diffusion of Excellence research article",
+            "description": "promising innovative practices across the Veterans health administration",
+            "url": "https://www.frontiersin.org/articles/10.3389/frhs.2023.1223277/full/"
+        },
+        {
+            "img": "../assets/img/sharktank/vha-sharktank.jpg",
+            "title": "2023 VA Shark Tank competition winners announced",
+            "description": "Finalists pitched their solutions for Veteran care",
+            "url": "https://news.va.gov/126685/va-shark-tank-competition-winners-announced/"
+        }
+
+        /*
+
+                {
             "img": "../assets/img/sharktank/sharktank-bootcamp.jpg",
             "title": "Working with the Community to Save Veterans Lives",
             "description": "The VMET program assists in responding to calls involving local law enforcement interactions with veterans in crisis. This proactive outreach approach, which includes a VA clinician and VA police officer, is a first of its kind VA nationwide program to help reduce the number of veteran suicides.",
@@ -31,6 +58,8 @@ var newsData = {
             "description": "How do you change a Veteran" + "&#8217;" + "s life? How do you save a Veteran" + "&#8217;" + "s life? Sometimes all you need is a simple sheet of paper, as shown by the surprisingly simple Suicide Alert Red Card practice. Other times it takes complex coordination with first responders and the surrounding community through a program like the Veterans Mental Evaluation Team " + "&#40;" + "VMET" + "&#41;" + ". From simple to complex, the winning practices " + "&ndash;" + " known as Gold Status Practices " + "&#40;" + "GSP" + "&#41;" + " " + "&ndash;" + " of the 2019 VHA Shark Tank Competition are all changing and saving Veteran lives.",
             "url": "https://news.va.gov/115494/va-method-stop-unnecessary-medications-award/"
         }
+
+        */
     ]                                         
 }
 
