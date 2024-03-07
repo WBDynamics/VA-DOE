@@ -1,0 +1,122 @@
+@use "uswds-core" as *;
+
+#timeline h3 {
+    font-size: 1.5rem;
+    font-family: "Myriad-Pro-Condensed", Helvetica, arial, sans-serif;
+    // padding: 1em;
+    margin: 0;
+}
+
+#timeline .syllabus-header {
+    // min-height: 1em;
+    padding: 1.5em;
+    margin: 0;
+}
+
+#timeline .syllabus-header img {
+    height: 50px;
+}
+
+.syllabus-details {
+    padding: 1em;
+    margin: 0;
+    min-height: 290px;
+}
+
+.syllabus-details ul {
+    padding: 1em;
+    margin: 0;
+    line-height: 1.6;
+}
+
+// .syllabus-spacer {
+//     height: 11px;
+// }
+
+@include at-media(mobile) {
+    // mobile = 320
+    .syllabus-footer {
+        display: none;
+    }
+}
+
+@include at-media(mobile-lg) {
+    // mobile-lg = 480
+    .syllabus-footer {
+        display: none;
+    }
+}
+
+@include at-media(tablet) {
+    // tablet = 640
+    .syllabus-footer {
+        display: none;
+    }
+}
+
+@include at-media(tablet-lg) {
+    // tablet-lg = 880
+    .syllabus-footer {
+        display: none;
+    }
+}
+
+@include at-media(desktop) {
+    // desktop = 1024
+    .syllabus-footer {
+        display: contents;
+    }
+}    
+
+@include at-media(desktop-lg) {
+    // desktop-lg = 1200
+    .syllabus-footer {
+        display: contents;
+    }
+}
+
+@include at-media(widescreen) {
+    // widescreen = 1400
+    .syllabus-footer {
+        display: contents;
+    }
+}
+
+.bg-indigo-70 {
+    background-color: #3d4076;
+}
+
+.bg-indigo-60 {
+    background-color: #4d52af;
+}
+
+.bg-blue-50 {
+    background-color: #2378c3;
+}
+
+// .arrow-down-connect {
+//     width: 0; 
+//     height: 0; 
+//     border-left: 167px solid transparent;
+//     border-right: 167px solid transparent;
+    
+//     border-top: 76px solid #3d4076;
+// }
+
+// .arrow-down-catalyze {
+//     width: 0; 
+//     height: 0; 
+//     border-left: 167px solid transparent;
+//     border-right: 167px solid transparent;
+    
+//     border-top: 76px solid #07648d;
+// }
+
+// .arrow-down-supercharge {
+//     width: 0; 
+//     height: 0; 
+//     border-left: 167px solid transparent;
+//     border-right: 167px solid transparent;
+    
+//     border-top: 76px solid #28a0cb;
+// }
