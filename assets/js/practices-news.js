@@ -8,7 +8,7 @@ var newsData = {
             "url": "https://news.va.gov/123828/improving-access-eyeglasses-automated-ordering/"
         },
         {
-            "img": "assets/img/diffusion-practices/card5.jpg",
+            "img": "../assets/img/diffusion-practices/card5.jpg",
             "title": "Improving communication and access for prosthetic limbs",
             "description": "VA developed system enhances Veteran experience through improved transparency.",
             "url": "https://news.va.gov/128023/improving-communication-access-prosthetic-limbs/"
