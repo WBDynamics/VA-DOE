@@ -29,12 +29,11 @@
     line-height: 1.6;
 }
 
-// .syllabus-spacer {
-//     height: 11px;
-// }
-
 @include at-media(mobile) {
     // mobile = 320
+    .syllabus-container {
+        padding-bottom: 6em;
+    }
     .syllabus-footer {
         display: none;
     }
@@ -42,6 +41,9 @@
 
 @include at-media(mobile-lg) {
     // mobile-lg = 480
+    .syllabus-container {
+        padding-bottom: 6em;
+    }
     .syllabus-footer {
         display: none;
     }
@@ -49,6 +51,9 @@
 
 @include at-media(tablet) {
     // tablet = 640
+    .syllabus-container {
+        padding-bottom: 6em;
+    }
     .syllabus-footer {
         display: none;
     }
@@ -56,6 +61,9 @@
 
 @include at-media(tablet-lg) {
     // tablet-lg = 880
+    .syllabus-container {
+        padding-bottom: 6em;
+    }
     .syllabus-footer {
         display: none;
     }
@@ -93,30 +101,3 @@
 .bg-blue-50 {
     background-color: #2378c3;
 }
-
-// .arrow-down-connect {
-//     width: 0; 
-//     height: 0; 
-//     border-left: 167px solid transparent;
-//     border-right: 167px solid transparent;
-    
-//     border-top: 76px solid #3d4076;
-// }
-
-// .arrow-down-catalyze {
-//     width: 0; 
-//     height: 0; 
-//     border-left: 167px solid transparent;
-//     border-right: 167px solid transparent;
-    
-//     border-top: 76px solid #07648d;
-// }
-
-// .arrow-down-supercharge {
-//     width: 0; 
-//     height: 0; 
-//     border-left: 167px solid transparent;
-//     border-right: 167px solid transparent;
-    
-//     border-top: 76px solid #28a0cb;
-// }
