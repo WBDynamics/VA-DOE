@@ -2,6 +2,32 @@ var newsData = {
 
     "data": [
         {
+            "img": "../assets/img/diffusion-practices/card4.jpg",
+            "title": "Improving Veteran access to eyeglasses with automated ordering",
+            "description": "Team develops process to reduce wait time for eyeglasses",
+            "url": "https://news.va.gov/123828/improving-access-eyeglasses-automated-ordering/"
+        },
+        {
+            "img": "../assets/img/diffusion-practices/card5.jpg",
+            "title": "Improving communication and access for prosthetic limbs",
+            "description": "VA developed system enhances Veteran experience through improved transparency.",
+            "url": "https://news.va.gov/128023/improving-communication-access-prosthetic-limbs/"
+        },
+        {
+            "img": "../assets/img/diffusion-practices/card6.jpg",
+            "title": "Improving Veterans’ sleep with white noise",
+            "description": "White Noise Project has 97% positive rating among Veterans",
+            "url": "https://news.va.gov/122343/improving-veterans-sleep-with-white-noise/"
+        },
+        {
+            "img": "../assets/img/diffusion-practices/card7.jpg",
+            "title": "Contraception on Demand program expands access to reproductive care",
+            "description": "Improving Veteran experiences with reproductive health care at VA",
+            "url": "https://news.va.gov/121828/contraception-on-demand-expands-reproductive/"
+        }
+
+        /*
+                {
             "img": "../assets/img/diffusion-practices/card1.jpg",
             "title": "PRIDE in All Who Served",
             "description": "On June 4th, Diffusion of Excellence program and iNET investee, PRIDE in All Who Served, presented at the Academy Health Conference about implementation of the program.",
@@ -19,6 +45,8 @@ var newsData = {
             "description": "VIONE won the Calendar Year 2022 Quarter 1 National HeRO Award.",
             "url": "https://blogs.va.gov/VAntage/70709/vione-changes-way-va-handles-prescriptions/?msclkid=1fdd98b8d06c11eca781bc0d1f5db366"
         }
+
+        */
     ]                                         
 }
 

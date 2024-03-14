@@ -2,6 +2,32 @@ var newsData = {
 
     "data": [
         {
+            "img": "assets/img/home/news_8.jpg",
+            "title": "Improving communication and access for prosthetic limbs",
+            "description": "VA developed system enhances Veteran experience through improved transparency.",
+            "url": "https://news.va.gov/128023/improving-communication-access-prosthetic-limbs/"
+        },
+        {
+            "img": "assets/img/home/news_2.jpg?v=2",
+            "title": "Diffusion of Excellence research article",
+            "description": "promising innovative practices across the Veterans health administration",
+            "url": "https://www.frontiersin.org/articles/10.3389/frhs.2023.1223277/full"
+        },
+        {
+            "img": "assets/img/home/news_9.jpg",
+            "title": "Connecting Veterans to diabetes care with telehealth innovation",
+            "description": "Team enhances home telehealth services to improve diabetes care",
+            "url": "https://news.va.gov/125818/connecting-veterans-to-diabetes-care-telehealth/"
+        },
+        {
+            "img": "assets/img/home/news_4.jpg",
+            "title": "Diffusion Academy Supports Promising Practices",
+            "description": "Diffusion Academy brings employees with mature practices together from across VHA IE portfolios to train and support them in taking the next step in spreading their work across VHA. This year, Diffusion Academy also supported researchers from the Quality Enhancement Research Initiative (QUERI), providing them with the same training and tools during the three-day intensive collaboration.",
+            "url": "https://blogs.va.gov/VAntage/90555/vha-diffusion-academy-supports-spread-promising-practices/"
+        } 
+
+        /* previous stories replaced 3/24
+        {
             "img": "assets/img/home/news_1.jpg?v=2",
             "title": "Working with the Community to Save Veterans Lives",
             "description": "The VMET program assists in responding to calls involving local law enforcement interactions with veterans in crisis. This proactive outreach approach, which includes a VA clinician and VA police officer, is a first of its kind VA nationwide program to help reduce the number of veteran suicides.",
@@ -42,7 +68,8 @@ var newsData = {
             "title": "Surgical Pause: Understanding Veteran frailty",
             "description": "Surgical Pause offers alternative treatments to surgery, increasing survival rates for Veterans.",
             "url": "https://news.va.gov/113507/surgical-pause-understanding-veteran-frailty/"
-        }                                                
+        }  
+        */                                          
     ]                                         
 }
 
