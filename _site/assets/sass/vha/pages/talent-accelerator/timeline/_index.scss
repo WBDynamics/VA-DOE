@@ -3,101 +3,127 @@
 #timeline h3 {
     font-size: 1.5rem;
     font-family: "Myriad-Pro-Condensed", Helvetica, arial, sans-serif;
-    // padding: 1em;
     margin: 0;
 }
 
-#timeline .syllabus-header {
-    // min-height: 1em;
+#timeline .usa-card__header {
     padding: 1.5em;
     margin: 0;
 }
 
-#timeline .syllabus-header img {
-    height: 50px;
-}
+.card-gradient {
 
-.syllabus-details {
-    padding: 1em;
-    margin: 0;
-    min-height: 290px;
-}
+    &__card {
+        height: 100%;
+    }
 
-.syllabus-details ul {
-    padding: 1em;
-    margin: 0;
-    line-height: 1.6;
+    .usa-card {
+        margin: 0;
+    }
+
+    .usa-card__container {
+        color: #fff;
+        border: 0;
+        box-shadow: none !important;
+        border-radius: 0;
+        
+        .usa-card__header img {
+            height: 50px;
+            padding-bottom: 0;
+        }
+    }
+    
+    .usa-card__body {
+        padding: 1em;
+        margin: 0;
+    }
+
+    .usa-card__body ul {
+        padding: 1em;
+        margin: 0;
+        line-height: 1.6;
+    }
+
+    &--card-1 .usa-card__container {
+        background-color: #3d4076;
+
+        .usa-card__body {
+            background-color: #4d52af;
+        }
+    }
+
+    &--card-2 .usa-card__container {
+        background-color: #07648d;
+
+        .usa-card__body {
+            background-color: #2378c3;
+        }
+    }
+    
+    &--card-3 .usa-card__container {
+        background-color: #28a0cb;
+
+        .usa-card__body {
+            background-color: #59b9de;
+        }
+    }
+    .card-gradient__card {
+        border: 0;
+        height: 100%; // added jls 
+    }
+
+    .usa-card__footer {
+        background-color: #fff !important;
+        padding: 0 !important;
+    }
+    
 }
 
 @include at-media(mobile) {
     // mobile = 320
-    .syllabus-container {
-        padding-bottom: 6em;
-    }
-    .syllabus-footer {
-        display: none;
+    .usa-card__header {
+        min-height: 215px;
     }
 }
 
 @include at-media(mobile-lg) {
     // mobile-lg = 480
-    .syllabus-container {
-        padding-bottom: 6em;
-    }
-    .syllabus-footer {
-        display: none;
+    .usa-card__header {
+        min-height: 180px;
     }
 }
 
 @include at-media(tablet) {
     // tablet = 640
-    .syllabus-container {
-        padding-bottom: 6em;
-    }
-    .syllabus-footer {
-        display: none;
+    .usa-card__header {
+        min-height: 180px;
     }
 }
 
 @include at-media(tablet-lg) {
     // tablet-lg = 880
-    .syllabus-container {
-        padding-bottom: 6em;
-    }
-    .syllabus-footer {
-        display: none;
+    .usa-card__header {
+        min-height: 250px;
     }
 }
 
 @include at-media(desktop) {
     // desktop = 1024
-    .syllabus-footer {
-        display: contents;
+    .usa-card__header {
+        min-height: 250px;
     }
 }    
 
 @include at-media(desktop-lg) {
     // desktop-lg = 1200
-    .syllabus-footer {
-        display: contents;
+    .usa-card__header {
+        min-height: 215px;
     }
 }
 
 @include at-media(widescreen) {
     // widescreen = 1400
-    .syllabus-footer {
-        display: contents;
+    .usa-card__header {
+        min-height: 215px;
     }
-}
-
-.bg-indigo-70 {
-    background-color: #3d4076;
-}
-
-.bg-indigo-60 {
-    background-color: #4d52af;
-}
-
-.bg-blue-50 {
-    background-color: #2378c3;
 }
