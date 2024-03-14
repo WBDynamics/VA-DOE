@@ -10,7 +10,7 @@ var newsData = {
         {
             "img": "assets/img/home/news_2.jpg?v=2",
             "title": "Diffusion of Excellence research article",
-            "description": "promising innovative practices across the Veterans health administration",
+            "description": "Evaluating a system to identify, replicate, and spread promising practices.",
             "url": "https://www.frontiersin.org/articles/10.3389/frhs.2023.1223277/full"
         },
         {
