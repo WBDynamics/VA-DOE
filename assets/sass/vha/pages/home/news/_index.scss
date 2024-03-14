@@ -192,11 +192,7 @@
     margin-top: 10%;
   }
 
-  #doe-news .usa-card__body > {
-    h4, p {
-      font-size: calc(1rem + .9vw) !important;
-    }
-  }
+
 
   #doe-news .usa-card_header {
       h1 {
@@ -210,3 +206,80 @@
 
 }
 
+
+@media (max-width: 1399px) {
+  #doe-news .owl-nav{
+    position: absolute;
+    top: 430px;
+    margin: 0 auto;
+  }
+  #doe-news{
+    height: 590px;
+  }
+}
+
+
+
+@media (max-width: 1099px) {
+  #doe-news{
+
+    height: 650px;
+  }
+
+
+  #doe-news .owl-nav{
+    position: absolute;
+   
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+
+
+
+
+
+  #doe-news .usa-card_body{
+    margin: 0 auto;
+  }
+
+
+
+  #doe-news .usa-card_header{
+    width: 100%;
+  }
+
+  #doe-news .usa-card_header h1{
+    margin-bottom: 0;
+    
+  }
+
+  #doe-news .usa-card_header p{
+    margin-top: 0;
+    line-height: 1.2;
+    
+  }
+
+}
+
+
+
+
+
+@media (max-width: 767px) {
+  #doe-news .owl-nav{
+    position: absolute;
+   top:540px;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #doe-news{
+
+    height: 880px;
+  }
+
+
+}
