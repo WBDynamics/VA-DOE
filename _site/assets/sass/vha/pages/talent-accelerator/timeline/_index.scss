@@ -26,6 +26,8 @@
         border: 0;
         box-shadow: none !important;
         border-radius: 0;
+        margin-left: 0;
+        margin-right: 0;
         
         .usa-card__header img {
             height: 50px;
@@ -45,26 +47,26 @@
     }
 
     &--card-1 .usa-card__container {
-        background-color: #3d4076;
+        background-color: #274863; //uswds blue-70
 
         .usa-card__body {
-            background-color: #4d52af;
+            background-color: #345d96; // uswds blue-warm-60
         }
     }
 
     &--card-2 .usa-card__container {
-        background-color: #07648d;
+        background-color: #07648d; //uswds blue-cool-60v
 
         .usa-card__body {
-            background-color: #2378c3;
+            background-color: #0d7ea2; //uswds blue-cool-50v
         }
     }
     
     &--card-3 .usa-card__container {
-        background-color: #28a0cb;
+        background-color: #1a4480; //uswds blue-warm-vivid
 
         .usa-card__body {
-            background-color: #59b9de;
+            background-color: #4d52af; //uswds inidgo-60
         }
     }
     .card-gradient__card {
