@@ -69,7 +69,7 @@ var newsData = {
             "description": "Surgical Pause offers alternative treatments to surgery, increasing survival rates for Veterans.",
             "url": "https://news.va.gov/113507/surgical-pause-understanding-veteran-frailty/"
         }  
-        */                                          
+        */
     ]                                         
 }
 
