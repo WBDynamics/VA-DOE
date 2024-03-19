@@ -1,0 +1,96 @@
+@use "uswds-core" as *;
+
+#secondary-row2.secondary-row.two {
+
+    .row2A img {
+        border-radius: 6px;
+        margin-left: 2.5%;
+        width: 95%;
+    }
+
+    .row2A, .row2B {
+        z-index: 2;
+    }
+
+    @include at-media(mobile) {
+        .grid-row {
+            display: flex;
+            flex-flow: column-reverse;
+        }
+    }
+
+    @include at-media(desktop) {
+        // margin-bottom: 200px;
+
+        .row2A img {
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+
+    @include at-media(desktop) {
+        .grid-row {
+            flex-flow: row;
+        }
+
+        .row-custom-background {
+            width: 32vw;
+            top: 0;
+            left: 32vw;
+            height: 100%;
+            z-index: 2;
+        }
+
+        .row2A img {
+            border-radius: 6px;
+            width: 80%;
+        }
+
+        .row2B {
+            background: #e3eef7;
+            padding: 10% 5% 10% 0;
+            border-radius: 8px;
+        }
+    }
+
+    @media screen and (min-width: 2500px) {
+        .row-custom-background {
+            left: 38vw;
+        }
+    }
+}
+
+#secondary-row2 .row2-lines {
+    right: 0;
+    top: -20%;
+
+    @media screen and (max-width: 1025px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 1026px) {
+        display: block;
+    }
+
+    @media screen and (min-width: 1026px) and (max-width: 1400px) {
+        right: -20%;
+        top: -15%;
+
+        & img {
+            width: 90%;
+        }
+    }
+
+    @media screen and (min-width: 2500px) {
+        right: 15%;
+    }
+}
+
+#secondary-row2 .row2-lines-mobile {
+    z-index: 0;
+    top: -13%;
+
+    @include at-media(desktop) {
+        display: none;
+    }
+}

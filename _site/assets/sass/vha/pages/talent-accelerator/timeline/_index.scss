@@ -1,0 +1,131 @@
+@use "uswds-core" as *;
+
+#timeline h3 {
+    font-size: 1.5rem;
+    font-family: "Myriad-Pro-Condensed", Helvetica, arial, sans-serif;
+    margin: 0;
+}
+
+#timeline .usa-card__header {
+    padding: 1.5em;
+    margin: 0;
+}
+
+.card-gradient {
+
+    &__card {
+        height: 100%;
+    }
+
+    .usa-card {
+        margin: 0;
+    }
+
+    .usa-card__container {
+        color: #fff;
+        border: 0;
+        box-shadow: none !important;
+        border-radius: 0;
+        margin-left: 0;
+        margin-right: 0;
+        
+        .usa-card__header img {
+            height: 50px;
+            padding-bottom: 0;
+        }
+    }
+    
+    .usa-card__body {
+        padding: 1em;
+        margin: 0;
+    }
+
+    .usa-card__body ul {
+        padding: 1em;
+        margin: 0;
+        line-height: 1.6;
+    }
+
+    &--card-1 .usa-card__container {
+        background-color: #274863; //uswds blue-70
+
+        .usa-card__body {
+            background-color: #345d96; // uswds blue-warm-60
+        }
+    }
+
+    &--card-2 .usa-card__container {
+        background-color: #07648d; //uswds blue-cool-60v
+
+        .usa-card__body {
+            background-color: #0d7ea2; //uswds blue-cool-50v
+        }
+    }
+    
+    &--card-3 .usa-card__container {
+        background-color: #1a4480; //uswds blue-warm-vivid
+
+        .usa-card__body {
+            background-color: #4d52af; //uswds inidgo-60
+        }
+    }
+    .card-gradient__card {
+        border: 0;
+        height: 100%; // added jls 
+    }
+
+    .usa-card__footer {
+        background-color: #fff !important;
+        padding: 0 !important;
+    }
+    
+}
+
+@include at-media(mobile) {
+    // mobile = 320
+    .usa-card__header {
+        min-height: 215px;
+    }
+}
+
+@include at-media(mobile-lg) {
+    // mobile-lg = 480
+    .usa-card__header {
+        min-height: 180px;
+    }
+}
+
+@include at-media(tablet) {
+    // tablet = 640
+    .usa-card__header {
+        min-height: 180px;
+    }
+}
+
+@include at-media(tablet-lg) {
+    // tablet-lg = 880
+    .usa-card__header {
+        min-height: 250px;
+    }
+}
+
+@include at-media(desktop) {
+    // desktop = 1024
+    .usa-card__header {
+        min-height: 250px;
+    }
+}    
+
+@include at-media(desktop-lg) {
+    // desktop-lg = 1200
+    .usa-card__header {
+        min-height: 215px;
+    }
+}
+
+@include at-media(widescreen) {
+    // widescreen = 1400
+    .usa-card__header {
+        min-height: 215px;
+    }
+}
