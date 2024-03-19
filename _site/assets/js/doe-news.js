@@ -16,7 +16,7 @@ var newsData = {
         {
             "img": "assets/img/home/news_9.jpg",
             "title": "Connecting Veterans to diabetes care with telehealth innovation",
-            "description": "Evaluating a system to identify, replicate, and spread promising practices.",
+            "description": "Team enhances home telehealth services to improve diabetes care",
             "url": "https://news.va.gov/125818/connecting-veterans-to-diabetes-care-telehealth/"
         },
         {
