@@ -1,0 +1,9 @@
+@use "uswds-core" as *;
+
+#secondary-row1.secondary-row.one {
+    @include at-media(desktop) {
+        .row1A p {
+            padding-right: 11%;
+        }
+    }
+}
