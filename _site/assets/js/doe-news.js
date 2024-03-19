@@ -10,13 +10,13 @@ var newsData = {
         {
             "img": "assets/img/home/news_2.jpg?v=2",
             "title": "Diffusion of Excellence research article",
-            "description": "promising innovative practices across the Veterans health administration",
+            "description": "Evaluating a system to identify, replicate, and spread promising practices.",
             "url": "https://www.frontiersin.org/articles/10.3389/frhs.2023.1223277/full"
         },
         {
             "img": "assets/img/home/news_9.jpg",
             "title": "Connecting Veterans to diabetes care with telehealth innovation",
-            "description": "Team enhances home telehealth services to improve diabetes care",
+            "description": "Evaluating a system to identify, replicate, and spread promising practices.",
             "url": "https://news.va.gov/125818/connecting-veterans-to-diabetes-care-telehealth/"
         },
         {
