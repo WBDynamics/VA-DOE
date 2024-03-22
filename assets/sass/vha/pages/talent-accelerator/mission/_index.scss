@@ -7,3 +7,54 @@
         }
     }
 }
+
+@include at-media(mobile) {
+    .svg-blur-dta-1 {
+        display: none;
+    }
+}
+  
+
+@include at-media(mobile-lg) {
+    .svg-blur-dta-1 {
+        display: none;
+    }
+}
+
+@include at-media(tablet) {
+    .svg-blur-dta-1 {
+        display: none;
+    }
+}
+
+@include at-media(tablet-lg) {
+    .svg-blur-dta-1 {
+        display: block;
+        margin-top: -30rem;
+        margin-left: 30rem;
+    }
+}
+
+@include at-media(desktop) {
+    .svg-blur-dta-1 {
+        display: block;
+        margin-top: -30rem;
+        margin-left: 35rem;
+    }
+}
+
+@include at-media(desktop-lg) {
+    .svg-blur-dta-1 {
+        display: block;
+        margin-top: -30rem;
+        margin-left: 50rem;
+    }
+}
+
+@include at-media(widescreen) {
+    .svg-blur-dta-1 {
+        display: block;
+        margin-top: -30rem;
+        margin-left: 50rem;
+    }
+}

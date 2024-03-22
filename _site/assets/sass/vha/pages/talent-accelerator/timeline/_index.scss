@@ -86,12 +86,18 @@
     .usa-card__header {
         min-height: 215px;
     }
+    .svg-blur-dta-2 {
+        display: none;
+    }
 }
 
 @include at-media(mobile-lg) {
     // mobile-lg = 480
     .usa-card__header {
         min-height: 180px;
+    }
+    .svg-blur-dta-2 {
+        display: none;
     }
 }
 
@@ -100,12 +106,20 @@
     .usa-card__header {
         min-height: 180px;
     }
+    .svg-blur-dta-2 {
+        display: none;
+    }
 }
 
 @include at-media(tablet-lg) {
     // tablet-lg = 880
     .usa-card__header {
         min-height: 250px;
+    }
+    .svg-blur-dta-2 {
+        display: block;
+        margin-top: -27rem;
+        margin-left: -20rem;
     }
 }
 
@@ -114,6 +128,11 @@
     .usa-card__header {
         min-height: 250px;
     }
+    .svg-blur-dta-2 {
+        display: block;
+        margin-top: -27rem;
+        margin-left: -20rem;
+    }
 }    
 
 @include at-media(desktop-lg) {
@@ -121,11 +140,21 @@
     .usa-card__header {
         min-height: 215px;
     }
+    .svg-blur-dta-2 {
+        display: block;
+        margin-top: -27rem;
+        margin-left: -20rem;
+    }
 }
 
 @include at-media(widescreen) {
     // widescreen = 1400
     .usa-card__header {
         min-height: 215px;
+    }
+    .svg-blur-dta-2 {
+        display: block;
+        margin-top: -27rem;
+        margin-left: -20rem;
     }
 }
