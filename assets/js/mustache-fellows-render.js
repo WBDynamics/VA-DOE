@@ -191,8 +191,8 @@ currentData.data[0].forEach(current => $('.owl-carousel.current--fellows').appen
 + "<img src='" + current.img + "'alt='" + current.alt + "' />" + "</div>" + "</div>" 
 + "<div class='usa-card__body'>" 
 + "<h2 class='margin-bottom-0 h3'>" + current.alt + "</h2>" 
-// + "<h3 class='margin-y-0 h4'>" + current.title + "</h3>" 
-+ "<p class='office_title margin-bottom-0'>" + current.office_title + "</p>" 
-+ "<p class='project'><strong>Capstone Project:</strong>" + current.project + "</p>" 
++ "<h3 class='margin-y-0 h4'>" + current.title + "</h3>" 
+// + "<p class='office_title margin-bottom-0'>" + current.office_title + "</p>" 
++ "<p class='project'><strong>Capstone Project:</strong> " + current.project + "</p>" 
 + "<p class='bio'>" + current.bio + "</p>" 
 + "</div>" + "</div>"));
