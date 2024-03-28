@@ -70,7 +70,7 @@ let melindaView = {
     profileImg: "",
     alt: "Melinda &#34;Mindy&#34; Davis, RN",
     bio_name: "Melinda &#34;Mindy&#34; Davis, RN",
-    title: "Registered Nurse",
+    title: "Registered Nurse, VISN 22",
     job: "",
     job2: "",
     job_description: "",
