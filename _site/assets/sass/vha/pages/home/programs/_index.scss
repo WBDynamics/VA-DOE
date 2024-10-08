@@ -18,7 +18,7 @@
 }
 
 .doe-svg-container {
-  width: 120%;
+  width: 100%;
   margin: auto;
 
   > svg {
@@ -52,8 +52,8 @@
     color: #0a0808;
     top: 2.5%;
     left: 0;
-    width: 83.5%;
-    position: absolute;
+    width: 100%;
+    //position: absolute;
 
     h2 {
       margin: auto;
@@ -433,5 +433,3 @@
     padding-bottom: 0;
   }
 }
-
-

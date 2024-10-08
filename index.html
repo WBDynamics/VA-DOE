@@ -19,34 +19,29 @@
 
 <body>
 
-    <!-- SITE WRAPPER - START -->
     <div class="site-wrapper">
       
       {% include "header.html" %}
       
         <main>
-          <section class="above--svg-anim position-relative">
+
             {% include "home/masthead.html" %}
 
             {% include "home/doe-mission.html" %}
 
             {% include "home/doe-playbook.html" %} 
-          </section>
           
-          {% include "home/programs.html" %}
-
-          <section class="below--svg-anim position-relative">
+            {% include "home/programs.html" %}
+        
             {% include "home/news.html" %}
 
             {% include "home/doe-team.html" %}
-          </section>
-
+      
         </main>
 
       {% include "footer.html" %}
 
     </div>
-    <!-- SITE WRAPPER - END -->
 
     <script src="assets/uswds/js/uswds.min.js"></script>
     <script src="assets/js/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
