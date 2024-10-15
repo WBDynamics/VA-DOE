@@ -2,6 +2,24 @@ var newsData = {
 
     "data": [
         {
+            "img": "assets/img/home/safe-watch.jpg",
+            "title": "SAFE-Watch: A suicide prevention safety net",
+            "description": "Innovator develops alert for Veterans showing signs of suicide risk",
+            "url": "https://news.va.gov/131958/safe-watch-a-suicide-prevention-safety-net/"
+        },
+        {
+            "img": "assets/img/home/address-kidney-disease.jpg",
+            "title": "Equipping Veterans to address kidney disease",
+            "description": "Veterans can make changes to prevent and slow chronic kidney disease",
+            "url": "https://news.va.gov/130094/equipping-veterans-knowledge-kidney-disease/"
+        },
+        {
+            "img": "assets/img/home/gerofit.jpg",
+            "title": "Gerofit keeps Veterans active through personalized wellness",
+            "description": "Health and wellness for older Veterans with strength and aerobic plans",
+            "url": "https://news.va.gov/129461/gerofit-veterans-active-personalized-wellness/"
+        },
+        {
             "img": "assets/img/home/news_8.jpg",
             "title": "Improving communication and access for prosthetic limbs",
             "description": "VA developed system enhances Veteran experience through improved transparency.",
