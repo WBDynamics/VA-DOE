@@ -22,10 +22,11 @@
 #doe-programs {
   position: relative;
   background: #e8f2f8;
-  width: 70%;
-  margin: 5% auto;
-  margin: 0 auto 5% auto;
+  //width: 70%;
+  //margin: 5% auto;
+  //margin: 0 auto 5% auto;
   z-index: 2;
+  border-radius: 8px;
   
   [href]:focus,
   [tabindex]:focus,
@@ -73,8 +74,8 @@
   #doe-programs {
     position: relative;
     background: #e8f2f8;
-    width: 100%;
-    margin: 0 auto 5% auto;
+    //width: 100%;
+    //margin: 0 auto 5% auto;
     padding: 2% 0;
     z-index: 2;
   }
@@ -94,7 +95,7 @@
   #doe-programs {
     .grid-container {
       color: #0a0808;
-      width: 100%;
+      //width: 100%;
       padding: 5% 0;
       position: relative;
       max-width: none !important;
@@ -134,7 +135,7 @@
 
     .grid-container {
       position: relative;
-      width: 100%;
+      //width: 100%;
       padding: 15% 0 0 0;
 
       .grid-row {
