@@ -130,7 +130,7 @@ let amandaView = {
 
 
 // Mustache render logic for individual page views | ?user="firstname-lastname"
-var fellowsArray = new Array(tammyView, kaylaView, inesView, melindaView, ashleyView, rodView, ashleycView, amandaView  );
+var fellowsArray = new Array(ashleyView, rodView, ashleycView,  amandaView, kaylaView, inesView, melindaView,  tammyView);
 
 var tab;
 var img;
