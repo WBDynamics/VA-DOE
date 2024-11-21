@@ -83,8 +83,54 @@ let melindaView = {
     bio2: ""
 };
 
+
+let ashleyView = {
+    id: "ashley-choate",
+    fellow_type: "",
+    fellow_status: "current",
+    img: "../assets/img/accelerator/ashley-choate.jpg",
+    profileImg: "",
+    alt: "Ashley Choate, MPH",
+    bio_name: "Ashley Choate, MPH",
+    title: "Innovation & Dissemination Lead, VISN 6",
+};
+
+let rodView = {
+    id: "rod-bessire",
+    fellow_type: "",
+    fellow_status: "current",
+    img: "../assets/img/accelerator/rod-bessire.jpg",
+    profileImg: "",
+    alt: "Rod Bessire",
+    bio_name: "Rod Bessire",
+    title: "ILEAD Innovations Implementation Specialist",
+};
+
+let ashleycView = {
+    id: "ashely-cassel",
+    fellow_type: "",
+    fellow_status: "current",
+    img: "../assets/img/accelerator/ashley-cassel.jpg",
+    profileImg: "",
+    alt: "Ashley Cassel, PT, DPT, OCS",
+    bio_name: "Ashley Cassel, PT, DPT, OCS",
+    title: "Certified Orthopedic Physical Therapy Specialist",
+};
+
+let amandaView = {
+    id: "amanda-wall",
+    fellow_type: "",
+    fellow_status: "current",
+    img: "../assets/img/accelerator/amanda-wall.jpg",
+    profileImg: "",
+    alt: "Amanda Wall, BSN, RN, CCM",
+    bio_name: "Amanda Wall, BSN, RN, CCM",
+    title: "Clinical Innovation Specialist, Diffusion",
+};
+
+
 // Mustache render logic for individual page views | ?user="firstname-lastname"
-var fellowsArray = new Array(tammyView, kaylaView, inesView, melindaView);
+var fellowsArray = new Array(tammyView, kaylaView, inesView, melindaView, ashleyView, rodView, ashleycView, amandaView  );
 
 var tab;
 var img;
@@ -193,6 +239,6 @@ currentData.data[0].forEach(current => $('.owl-carousel.current--fellows').appen
 + "<h2 class='margin-bottom-0 h3'>" + current.alt + "</h2>" 
 + "<h3 class='margin-y-0 h4'>" + current.title + "</h3>" 
 // + "<p class='office_title margin-bottom-0'>" + current.office_title + "</p>" 
-+ "<p class='project'><strong>Capstone Project:</strong> " + current.project + "</p>" 
-+ "<p class='bio'>" + current.bio + "</p>" 
+//+ "<p class='project'><strong>Capstone Project:</strong> " + current.project + "</p>" 
+//+ "<p class='bio'>" + current.bio + "</p>" 
 + "</div>" + "</div>"));
