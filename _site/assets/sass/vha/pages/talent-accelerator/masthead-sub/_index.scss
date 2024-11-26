@@ -13,86 +13,88 @@
     @include at-media(mobile) {
         // padding-top: 78%;
         // height: 81vw;
-        height: 46vw; // 179px;
-        margin-bottom: 16%;
+        height: 1049px;
         .masthead__logo {
             display: none;
         }
         .masthead-sub__wordmark {
             text-align: center;
+            width: 100%;
         }
     }
 
     @include at-media(mobile-lg) {
         // padding-top: 78%;
-        height: 46vw;
-        margin-bottom: 16%;
+        height: 549px;
         .masthead__logo {
             display: none;
         }
         .masthead-sub__wordmark {
             text-align: center;
+            width: 100%;
         }
     }
 
     @include at-media(tablet) {
         // padding-top: 70%;
-        height: 35vw;
-        margin-bottom: 14%;
+        height: 549px;
         .masthead__logo {
             display: none;
         }
         .masthead-sub__wordmark {
             text-align: center;
+            width: 100%;
         }
     }
 
     @include at-media(desktop) {
         // padding-top: 59%;
-        height: 35vw;
-        margin-bottom: 10%;
+        height: 249px;
         .masthead__logo {
             display: contents;
         }
         .masthead-sub__wordmark {
             text-align: right;
+            width: 100%;
         }
     }
 
     @include at-media(desktop) {
         // padding-top: 55%;
-        height: 29vw;
-        margin-bottom: 9%;
+        height: 249px;
         .masthead__logo {
             display: contents;
         }
         .masthead-sub__wordmark {
             text-align: right;
+            width: 100%;
         }
     }    
 
     @include at-media(desktop-lg) {
         // padding-top: 54%;
-        height: 22vw;
-        margin-bottom: 8%;
+         height: 249px;
         .masthead__logo {
             display: contents;
         }
         .masthead-sub__wordmark {
             text-align: right;
+            width: 100%;
         }
     }
 
     @include at-media(widescreen) {
         // height: 730px;
-        height: 15.64vw;
+        //height: 15.64vw;
+        height: 249px;
         padding-top: 0;
-        margin-bottom: 120px;
         .masthead__logo {
             display: contents;
         }
         .masthead-sub__wordmark {
             text-align: right;
+            width: 100%;
+            
         }
     }
 
@@ -178,9 +180,14 @@
     }
 }
 
-
-
-
 .dta-logo{
     height: 128px !important;
+    margin-top: 10px !important;
 }
+
+
+
+.masthead-sub{
+    height: 249px !important;
+}
+
