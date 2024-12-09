@@ -7,7 +7,7 @@ let tammyView = {
     profileImg: "",
     alt: "Tammy Finney, DNP, MSN, RN, CHCR",
     bio_name: "Tammy Finney, DNP, MSN, RN, CHCR",
-    title: "Chief, Community Relations &amp; Engagement, Columbia VA Health Care System",
+    title: "Chief, Community Relations and Engagement <br><p>Columbia VA Health Care System</p>",
     job: "",
     job2: "",
     job_description: "",
@@ -28,7 +28,7 @@ let kaylaView = {
     profileImg: "",
     alt: "Kayla Lalande, MSW, CAPSW",
     bio_name: "Kayla Lalande, MSW, CAPSW",
-    title: "Program Analyst, Office of Geriatrics and Extended Care (GEC)",
+    title: "Program Analyst <br><p>VA Office of Geriatrics and Extended Care</p>",
     job: "",
     job2: "",
     job_description: "",
@@ -49,7 +49,7 @@ let inesView = {
     profileImg: "",
     alt: "Ines Valencia-Mendoza, MPH",
     bio_name: "Ines Valencia-Mendoza, MPH",
-    title: "Program Analyst, Office of Geriatrics and Extended Care (GEC)",
+    title: "Program Analyst <br><p>VA Office of Geriatrics and Extended Care</p>",
     job: "",
     job2: "",
     job_description: "",
@@ -70,12 +70,12 @@ let melindaView = {
     profileImg: "",
     alt: "Melinda &#34;Mindy&#34; Davis, RN",
     bio_name: "Melinda &#34;Mindy&#34; Davis, RN",
-    title: "Registered Nurse, VISN 22",
+    title: "Registered Nurse <br> <p>VISN 22: VA Desert Pacific Healthcare Network</p>",
     job: "",
     job2: "",
     job_description: "",
     office_title: "VISN 22",
-    office_location: "",
+    office_location: "asdfasdfasdf",
     office_title2: "",
     office_location2: "",
     project: "Fall Prevention with SmartSocks",
@@ -103,7 +103,7 @@ let rodView = {
     profileImg: "",
     alt: "Rod Bessire",
     bio_name: "Rod Bessire",
-    title: "ILEAD Innovations Implementation Specialist",
+    title: "Innovations Implementation Specialist <br><p>Institute for Learning, Education and Development</p>",
 };
 
 let ashleycView = {
@@ -114,7 +114,7 @@ let ashleycView = {
     profileImg: "",
     alt: "Ashley Cassel, PT, DPT, OCS",
     bio_name: "Ashley Cassel, PT, DPT, OCS",
-    title: "Certified Orthopedic Physical Therapy Specialist",
+    title: "Certified Orthopedic Physical Therapy Specialist <br><p>Minneapolis VA Medical Center</p>",
 };
 
 let amandaView = {
@@ -125,12 +125,12 @@ let amandaView = {
     profileImg: "",
     alt: "Amanda Wall, BSN, RN, CCM",
     bio_name: "Amanda Wall, BSN, RN, CCM",
-    title: "Clinical Innovation Specialist, Diffusion",
+    title: "Clinical Innovation Specialist <br><p>Central Virginia VA Health Care System</p>",
 };
 
 
 // Mustache render logic for individual page views | ?user="firstname-lastname"
-var fellowsArray = new Array(ashleyView, rodView, ashleycView,  amandaView, kaylaView, inesView, melindaView,  tammyView);
+var fellowsArray = new Array(rodView, ashleycView,  amandaView, kaylaView, inesView, melindaView,  tammyView);
 
 var tab;
 var img;
